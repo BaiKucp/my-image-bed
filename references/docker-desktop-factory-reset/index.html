@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《别急着点 Factory Reset：一次 Docker 镜像丢失复盘》的官方文档与同类故障记录。">
+  <link rel="icon" href="data:,">
+  <title>Docker Desktop 启动失败与备份恢复｜参考资料</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #667085;
+      --line: #e4e9f1;
+      --blue: #1478d4;
+      --blue-soft: #eaf4ff;
+      --amber: #a85b00;
+      --amber-soft: #fff5e7;
+      --shadow: 0 12px 34px rgba(22, 48, 84, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 32px auto 56px;
+    }
+
+    .hero {
+      padding: 34px 32px;
+      color: #fff;
+      background: linear-gradient(135deg, #12345b 0%, #176db2 100%);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 4px 11px;
+      border: 1px solid rgba(255, 255, 255, 0.34);
+      border-radius: 999px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(26px, 5.6vw, 38px);
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+    }
+
+    .lead {
+      margin: 16px 0 0;
+      color: rgba(255, 255, 255, 0.84);
+      font-size: 16px;
+    }
+
+    .note,
+    section {
+      margin-top: 20px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .note {
+      border-left: 4px solid var(--blue);
+      box-shadow: var(--shadow);
+    }
+
+    .note p { margin: 0; }
+
+    h2 {
+      margin: 0 0 6px;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+
+    .section-intro {
+      margin: 0 0 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .source {
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .source:first-of-type {
+      padding-top: 4px;
+      border-top: 0;
+    }
+
+    .source-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .source h3 {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+
+    .tag {
+      flex: 0 0 auto;
+      padding: 3px 9px;
+      border-radius: 999px;
+      color: var(--blue);
+      background: var(--blue-soft);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .tag.report {
+      color: var(--amber);
+      background: var(--amber-soft);
+    }
+
+    .source p {
+      margin: 8px 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--blue);
+      text-underline-offset: 3px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 40px;
+      padding: 8px 13px;
+      border: 1px solid #b9d9f5;
+      border-radius: 10px;
+      background: #f8fcff;
+      font-size: 14px;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .button + .button { margin-left: 8px; }
+
+    .boundary ul {
+      margin: 12px 0 0;
+      padding-left: 1.25em;
+    }
+
+    .boundary li + li { margin-top: 8px; }
+
+    footer {
+      padding: 24px 8px 0;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 20px, 760px);
+        margin-top: 10px;
+      }
+
+      .hero { padding: 28px 22px; }
+      .note, section { padding: 20px 18px; }
+      .source-head { display: block; }
+      .tag { display: inline-block; margin-top: 8px; }
+      .button { width: 100%; justify-content: center; }
+      .button + .button { margin: 8px 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <span class="eyebrow">技术资料索引</span>
+      <h1>Docker Desktop 启动失败与备份恢复</h1>
+      <p class="lead">《别急着点 Factory Reset：一次 Docker 镜像丢失复盘》的原始资料与适用边界。</p>
+    </header>
+
+    <aside class="note">
+      <p><strong>阅读说明：</strong>正文已经包含完整结论和处理步骤。本页只用于核对来源，不是解决故障的前置步骤。</p>
+    </aside>
+
+    <section>
+      <h2>Windows 平台的同类故障记录</h2>
+      <p class="section-intro">以下内容由用户提交，用于比对症状，不代表 Docker 官方确认了唯一根因。</p>
+
+      <article class="source">
+        <div class="source-head">
+          <h3>1. Docker Desktop issue #531</h3>
+          <span class="tag report">用户报告</span>
+        </div>
+        <p>记录 Windows 上 Docker Desktop 无法移除 AF_UNIX socket，随后中止启动的现象。</p>
+        <a class="button" href="https://github.com/docker/desktop-feedback/issues/531" target="_blank" rel="noopener noreferrer">查看原始记录 ↗</a>
+      </article>
+
+      <article class="source">
+        <div class="source-head">
+          <h3>2. Docker Desktop issue #554</h3>
+          <span class="tag report">用户报告</span>
+        </div>
+        <p>记录异常退出或待机后，残留 socket 无法删除、重启 Windows 后仍无法启动的相似现象。</p>
+        <a class="button" href="https://github.com/docker/desktop-feedback/issues/554" target="_blank" rel="noopener noreferrer">查看原始记录 ↗</a>
+      </article>
+    </section>
+
+    <section>
+      <h2>Docker 官方文档</h2>
+      <p class="section-intro">用于确认产品操作的含义、备份范围与命令语义。</p>
+
+      <article class="source">
+        <div class="source-head">
+          <h3>3. Docker Desktop 故障排查</h3>
+          <span class="tag">官方文档</span>
+        </div>
+        <p>核对诊断、重启、清理和恢复出厂设置入口。Factory Reset 不是普通重启。</p>
+        <a class="button" href="https://docs.docker.com/desktop/troubleshoot-and-support/troubleshoot/" target="_blank" rel="noopener noreferrer">打开官方文档 ↗</a>
+      </article>
+
+      <article class="source">
+        <div class="source-head">
+          <h3>4. Docker Desktop 备份与恢复</h3>
+          <span class="tag">官方文档</span>
+        </div>
+        <p>核对 Docker Desktop 无法启动前后的数据备份方式，以及数据盘备份的适用场景。</p>
+        <a class="button" href="https://docs.docker.com/desktop/settings-and-maintenance/backup-and-restore/" target="_blank" rel="noopener noreferrer">打开官方文档 ↗</a>
+      </article>
+
+      <article class="source">
+        <div class="source-head">
+          <h3>5. 镜像与 volume 的备份方法</h3>
+          <span class="tag">官方文档</span>
+        </div>
+        <p>分别核对镜像推送、镜像导出和 volume 备份。登录 Docker Hub 不等于自动上传本地镜像，镜像归档也不能代替业务数据备份。</p>
+        <a class="button" href="https://docs.docker.com/reference/cli/docker/image/push/" target="_blank" rel="noopener noreferrer">docker image push ↗</a>
+        <a class="button" href="https://docs.docker.com/reference/cli/docker/image/save/" target="_blank" rel="noopener noreferrer">docker image save ↗</a>
+        <a class="button" href="https://docs.docker.com/engine/storage/volumes/#back-up-restore-or-migrate-data-volumes" target="_blank" rel="noopener noreferrer">volume 备份 ↗</a>
+      </article>
+    </section>
+
+    <section class="boundary">
+      <h2>资料使用边界</h2>
+      <ul>
+        <li>官方文档用于确认产品操作的语义与备份方法。</li>
+        <li>GitHub Issue 只能支持“存在相似症状”，不能单独证明本机的唯一根因。</li>
+        <li>本次能够确认的是错误发生位置，以及后续 Factory Reset 带来的数据状态变化。</li>
+        <li>故障发生前是否经历休眠、强制结束或进程崩溃，没有完整日志，因此不作确定判断。</li>
+      </ul>
+    </section>
+
+    <footer>资料核对日期：2026 年 9 月 1 日</footer>
+  </main>
+</body>
+</html>
