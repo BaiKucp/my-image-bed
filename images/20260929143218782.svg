@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" role="img" aria-labelledby="title desc">
+  <title id="title">本机巡检记录：局部用例图范例</title>
+  <desc id="desc">App 现场使用者使用 Android 地面站，筛选本机巡检记录、查看单次巡检结果、删除一条巡检记录；具体角色权限待确认。</desc>
+  <rect width="800" height="440" fill="#f7f9fc"/>
+  <text x="36" y="40" fill="#172b4d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="21" font-weight="700">局部用例图范例：本机巡检记录</text>
+
+  <rect x="266" y="70" width="490" height="340" rx="10" fill="#ffffff" stroke="#6683ad" stroke-width="2"/>
+  <text x="288" y="99" fill="#284a76" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16" font-weight="600">空间计算与多模态交互平台</text>
+  <text x="288" y="119" fill="#5a6f8d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14">Android 地面站（本图只画这一局部）</text>
+
+  <line x1="155" y1="250" x2="336" y2="170" stroke="#64748b" stroke-width="2"/>
+  <line x1="155" y1="250" x2="336" y2="255" stroke="#64748b" stroke-width="2"/>
+  <line x1="155" y1="250" x2="336" y2="340" stroke="#64748b" stroke-width="2"/>
+
+  <circle cx="126" cy="195" r="20" fill="#ffffff" stroke="#334155" stroke-width="2.5"/>
+  <line x1="126" y1="215" x2="126" y2="280" stroke="#334155" stroke-width="2.5"/>
+  <line x1="97" y1="250" x2="155" y2="250" stroke="#334155" stroke-width="2.5"/>
+  <line x1="126" y1="280" x2="101" y2="316" stroke="#334155" stroke-width="2.5"/>
+  <line x1="126" y1="280" x2="151" y2="316" stroke="#334155" stroke-width="2.5"/>
+  <text x="126" y="347" text-anchor="middle" fill="#172b4d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="16">App 现场使用者</text>
+  <text x="126" y="368" text-anchor="middle" fill="#5a6f8d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="14">（具体角色待确认）</text>
+
+  <ellipse cx="520" cy="170" rx="184" ry="33" fill="#e9f2ff" stroke="#4575b5" stroke-width="2"/>
+  <text x="520" y="177" text-anchor="middle" fill="#172b4d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18">筛选本机巡检记录</text>
+
+  <ellipse cx="520" cy="255" rx="184" ry="33" fill="#e9f2ff" stroke="#4575b5" stroke-width="2"/>
+  <text x="520" y="262" text-anchor="middle" fill="#172b4d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18">查看单次巡检结果</text>
+
+  <ellipse cx="520" cy="340" rx="184" ry="33" fill="#e9f2ff" stroke="#4575b5" stroke-width="2"/>
+  <text x="520" y="347" text-anchor="middle" fill="#172b4d" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18">删除一条巡检记录</text>
+</svg>
