@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2260px" height="1700px" viewBox="0 0 2260 1700" role="img" aria-labelledby="model-title model-description">
+<title id="model-title">SCI 全组 P0 用例总览 v1.4 整合核对稿</title>
+<desc id="model-description">一个 SCI 应用侧系统边界，五个参与者、十五个用例、二十五条无向参与关系；内部按 Android 与 Web 及业务分组。实线不表示执行顺序或数据流。</desc>
+<rect width="2260" height="1700" fill="white"/>
+<text x="1130" y="39" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#172033" font-weight="bold">SCI 全组 P0 用例总览 v1.4 整合核对稿</text>
+<g class="subject" data-subject="SCI"><rect x="260" y="235" width="1690" height="1100" rx="10" fill="white" stroke="#94A3B8" stroke-width="2"/><text x="1710" y="270" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="22" fill="#172033" font-weight="bold">SCI 应用侧</text><text x="1710" y="296" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >Android 地面站＋Web 数据中心</text></g>
+<g class="package" data-package="Flight"><rect x="700" y="440" width="400" height="520" rx="7" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/><text x="900" y="942" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#172033" font-weight="bold">Android 地面站 · 巡检执行与成果</text></g>
+<g class="package" data-package="Maintenance"><rect x="450" y="280" width="970" height="145" rx="7" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/><text x="1240" y="409" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#172033" font-weight="bold">Android 地面站 · 航线与作业参数</text></g>
+<g class="package" data-package="Transfer"><rect x="570" y="983" width="675" height="310" rx="7" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/><text x="740" y="1007" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#172033" font-weight="bold">Android 地面站 · 设备连接与同步码</text></g>
+<g class="package" data-package="Web"><rect x="1575" y="826" width="350" height="477" rx="7" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/><text x="1750" y="850" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="20" fill="#172033" font-weight="bold">Web 数据中心</text></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Login"><line x1="167.00" y1="732.62" x2="337.36" y2="889.87" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Start"><line x1="167.00" y1="667.01" x2="807.14" y2="521.16" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Monitor"><line x1="167.00" y1="673.51" x2="755.97" y2="606.41" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Return"><line x1="167.00" y1="680.00" x2="779.00" y2="680.00" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Progress"><line x1="167.00" y1="686.49" x2="775.42" y2="755.81" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Operator" data-entity-2="Result"><line x1="167.00" y1="693.71" x2="773.92" y2="839.68" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="AppUser" data-entity-2="Login"><line x1="797.10" y1="1356.00" x2="399.97" y2="950.60" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="AppUser" data-entity-2="Connect"><line x1="832.00" y1="1356.00" x2="750.95" y2="1112.86" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="AppUser" data-entity-2="Code"><line x1="917.50" y1="1356.00" x2="1060.32" y2="1241.74" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Maintainer" data-entity-2="Login"><line x1="886.25" y1="220.00" x2="393.28" y2="888.43" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Maintainer" data-entity-2="Routes"><line x1="849.00" y1="190.64" x2="678.90" y2="298.88" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Maintainer" data-entity-2="DeleteRoute"><line x1="960.00" y1="220.00" x2="960.00" y2="297.00" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Maintainer" data-entity-2="Parameters"><line x1="1071.00" y1="197.70" x2="1203.02" y2="290.11" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Connect" data-entity-2="UAV"><line x1="2025.00" y1="702.06" x2="822.27" y2="1055.80" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Routes" data-entity-2="UAV"><line x1="2025.00" y1="662.14" x2="730.84" y2="354.01" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Start" data-entity-2="UAV"><line x1="2025.00" y1="668.75" x2="1006.02" y2="515.90" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Monitor" data-entity-2="UAV"><line x1="2025.00" y1="674.38" x2="1055.31" y2="601.65" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Return" data-entity-2="UAV"><line x1="2025.00" y1="680.00" x2="1021.00" y2="680.00" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Progress" data-entity-2="UAV"><line x1="2025.00" y1="685.63" x2="1031.68" y2="760.12" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Result" data-entity-2="UAV"><line x1="2025.00" y1="691.88" x2="1047.48" y2="846.65" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Login" data-entity-2="WebUser"><line x1="2007.00" y1="1090.32" x2="447.57" y2="928.07" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Sync" data-entity-2="WebUser"><line x1="2010.00" y1="1046.00" x2="1801.56" y2="920.93" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Search" data-entity-2="WebUser"><line x1="2007.00" y1="1070.77" x2="1829.30" y2="1014.92" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Detail" data-entity-2="WebUser"><line x1="2007.00" y1="1113.29" x2="1866.56" y2="1133.35" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="link" data-entity-1="Download" data-entity-2="WebUser"><line x1="2007.00" y1="1142.51" x2="1813.66" y2="1230.90" stroke="#64748B" stroke-width="1.5"/></g>
+<g class="entity usecase" data-entity="Start" data-use-case-id="UC-P0-03">
+<ellipse cx="900" cy="500" rx="121" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="900" y="491" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-03</text>
+<text x="900" y="517" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >发起巡检</text>
+</g>
+<g class="entity usecase" data-entity="Monitor" data-use-case-id="UC-P0-04">
+<ellipse cx="900" cy="590" rx="166" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="900" y="581" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-04</text>
+<text x="900" y="607" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >监控巡检与安全状态</text>
+</g>
+<g class="entity usecase" data-entity="Return" data-use-case-id="UC-P0-05">
+<ellipse cx="900" cy="680" rx="121" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="900" y="671" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-05</text>
+<text x="900" y="697" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >请求返航</text>
+</g>
+<g class="entity usecase" data-entity="Progress" data-use-case-id="UC-P0-06a">
+<ellipse cx="900" cy="770" rx="138" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="900" y="761" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-06a</text>
+<text x="900" y="787" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >查看处理进度</text>
+</g>
+<g class="entity usecase" data-entity="Result" data-use-case-id="UC-P0-06b">
+<ellipse cx="900" cy="870" rx="174" ry="44" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="900" y="851" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-06b</text>
+<text x="900" y="877" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >查看巡检成果</text>
+<text x="900" y="900" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >（点云、堆体及明细）</text>
+</g>
+<g class="entity usecase" data-entity="Routes" data-use-case-id="UC-P0-02b">
+<ellipse cx="630" cy="330" rx="147" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="630" y="321" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-02b</text>
+<text x="630" y="347" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >同步机载已有航线</text>
+</g>
+<g class="entity usecase" data-entity="DeleteRoute" data-use-case-id="UC-P0-02c">
+<ellipse cx="960" cy="330" rx="121" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="960" y="321" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-02c</text>
+<text x="960" y="347" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >删除航线</text>
+</g>
+<g class="entity usecase" data-entity="Parameters" data-use-case-id="UC-P0-10">
+<ellipse cx="1260" cy="330" rx="135" ry="44" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1260" y="311" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-10</text>
+<text x="1260" y="337" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >维护作业参数</text>
+<text x="1260" y="360" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >（如容重）</text>
+</g>
+<g class="entity usecase" data-entity="Connect" data-use-case-id="UC-P0-02a">
+<ellipse cx="740" cy="1080" rx="121" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="740" y="1071" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-02a</text>
+<text x="740" y="1097" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >连接无人机</text>
+</g>
+<g class="entity usecase" data-entity="Code" data-use-case-id="UC-P0-07">
+<ellipse cx="1100" cy="1210" rx="145" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1100" y="1201" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-07</text>
+<text x="1100" y="1227" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >获取任务同步码</text>
+</g>
+<g class="entity usecase" data-entity="Sync" data-use-case-id="UC-P0-08">
+<ellipse cx="1750" cy="890" rx="148" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1750" y="881" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-08</text>
+<text x="1750" y="907" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >同步巡检任务数据</text>
+</g>
+<g class="entity usecase" data-entity="Search" data-use-case-id="UC-P0-09a">
+<ellipse cx="1750" cy="990" rx="121" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1750" y="981" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-09a</text>
+<text x="1750" y="1007" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >检索任务</text>
+</g>
+<g class="entity usecase" data-entity="Detail" data-use-case-id="UC-P0-09b">
+<ellipse cx="1750" cy="1150" rx="135" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1750" y="1141" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-09b</text>
+<text x="1750" y="1167" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >查看任务详情</text>
+</g>
+<g class="entity usecase" data-entity="Download" data-use-case-id="UC-P0-09c">
+<ellipse cx="1750" cy="1260" rx="135" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="1750" y="1251" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-09c</text>
+<text x="1750" y="1277" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >下载任务成果</text>
+</g>
+<g class="entity usecase" data-entity="Login" data-use-case-id="UC-P0-01">
+<ellipse cx="370" cy="920" rx="80" ry="33" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+<text x="370" y="911" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#172033" font-weight="bold">UC-P0-01</text>
+<text x="370" y="937" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#172033" >登录</text>
+</g>
+<g class="entity actor" data-entity="Operator">
+<circle cx="110" cy="641" r="11" fill="white" stroke="#2563EB" stroke-width="1.7"/>
+<path d="M110,652V697 M91,668H129 M110,697L91,723 M110,697L129,723" fill="none" stroke="#2563EB" stroke-width="1.7"/>
+<text x="110" y="751" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >巡检操作员</text>
+</g>
+<g class="entity actor" data-entity="Maintainer">
+<circle cx="960" cy="81" r="11" fill="white" stroke="#2563EB" stroke-width="1.7"/>
+<path d="M960,92V137 M941,108H979 M960,137L941,163 M960,137L979,163" fill="none" stroke="#2563EB" stroke-width="1.7"/>
+<text x="960" y="191" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >示教运维</text>
+<text x="960" y="214" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >（航线与作业参数维护）</text>
+</g>
+<g class="entity actor" data-entity="AppUser">
+<circle cx="850" cy="1371" r="11" fill="white" stroke="#2563EB" stroke-width="1.7"/>
+<path d="M850,1382V1427 M831,1398H869 M850,1427L831,1453 M850,1427L869,1453" fill="none" stroke="#2563EB" stroke-width="1.7"/>
+<text x="850" y="1481" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >App 现场使用者</text>
+<text x="850" y="1504" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >（具体角色待确认）</text>
+</g>
+<g class="entity actor" data-entity="UAV">
+<text x="2100" y="616" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#172033" >«外部系统»</text>
+<circle cx="2100" cy="641" r="11" fill="white" stroke="#2563EB" stroke-width="1.7"/>
+<path d="M2100,652V697 M2081,668H2119 M2100,697L2081,723 M2100,697L2119,723" fill="none" stroke="#2563EB" stroke-width="1.7"/>
+<text x="2100" y="751" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >机载无人机系统</text>
+</g>
+<g class="entity actor" data-entity="WebUser">
+<circle cx="2100" cy="1061" r="11" fill="white" stroke="#2563EB" stroke-width="1.7"/>
+<path d="M2100,1072V1117 M2081,1088H2119 M2100,1117L2081,1143 M2100,1117L2119,1143" fill="none" stroke="#2563EB" stroke-width="1.7"/>
+<text x="2100" y="1171" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >Web 数据中心使用者</text>
+<text x="2100" y="1194" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" >（具体角色待确认）</text>
+</g>
+<g class="legend">
+<rect x="480" y="1534" width="1300" height="142" rx="7" fill="white" stroke="#CBD5E1"/>
+<text x="585" y="1562" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#172033" font-weight="bold">图例</text>
+<text x="950" y="1562" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#172033" >实线：参与者与用例的关联</text>
+<text x="1420" y="1562" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#172033" >外框：SCI 应用侧系统边界</text>
+<text x="1130" y="1593" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#172033" >内部分组用于阅读；实线不是流程或数据流。本图未添加 include／extend。</text>
+<text x="1130" y="1624" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#172033" >示教运维源于需求 §4.2，负责航线与作业参数维护；机载定位、飞控安全及测算算法由外部系统负责。</text>
+<text x="1130" y="1655" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#172033" >具体角色权限仍待核对；同步码不等于成果文件。当前为整合核对稿，接口与数据结构尚未冻结。</text>
+</g>
+</svg>
