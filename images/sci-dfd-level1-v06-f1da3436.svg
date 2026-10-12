@@ -1,0 +1,820 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2813px" height="2211px" viewBox="0 0 2813 2211" role="img" aria-labelledby="dfd-title dfd-description">
+<title id="dfd-title">SCI 应用侧数据流图（核心业务与支撑） 1 层</title>
+<desc id="dfd-description">同一系统的六个处理过程；同编号外部实体和逻辑存储重复绘制，全部数据流保持唯一。</desc>
+<rect width="2813" height="2211" fill="white"/>
+<text x="1406.5" y="29" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="24" font-weight="bold">SCI 应用侧数据流图（核心业务与支撑） v0.6 · 1 层／系统主干</text>
+<text x="1406.5" y="54" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#505050">六个加工同属 1 层；5.0／6.0 为组长补充；S01～S06 为逻辑存储，待定边界见正文。</text>
+<svg x="24" y="78" width="1377" height="869" viewBox="0 0 1377 869" data-process="P1">
+<g id="P1-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 853.9)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-853.9 1361.72,-853.9 1361.72,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="673.66" y="-815.7" font-family="Microsoft YaHei" font-size="22.00">1.0 处理设备连接、航线 与巡检交互（Android）</text>
+<!-- E01 -->
+<g id="P1-node1" class="node" data-model-node="E01" data-duplicate="true">
+<title>E01</title>
+<polygon fill="none" stroke="#303030" points="231.68,-625.2 32.32,-625.2 32.32,-545.8 231.68,-545.8 231.68,-625.2"/>
+<text text-anchor="middle" x="132" y="-600.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E01</text>
+<text text-anchor="middle" x="132" y="-580.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 现场使用者</text>
+<text text-anchor="middle" x="132" y="-560" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（权限依用例图核对）</text>
+</g>
+<!-- P1 -->
+<g id="P1-node2" class="node" data-model-node="P1">
+<title>P1</title>
+<ellipse fill="none" stroke="#303030" cx="691.21" cy="-550.5" rx="143.45" ry="143.45"/>
+<text text-anchor="middle" x="691.21" y="-565.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">1.0 处理设备连接、航线</text>
+<text text-anchor="middle" x="691.21" y="-545.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">与巡检交互</text>
+<text text-anchor="middle" x="691.21" y="-525" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（Android）</text>
+</g>
+<!-- E01-&gt;P1 -->
+<g id="P1-flow-F01" data-flow-id="F01" class="edge">
+<title>E01-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M219.21,-625.29C255.29,-641.94 289,-657.5 289,-657.5 289,-657.5 522.74,-657.5 522.74,-657.5 522.74,-657.5 540.13,-646.39 563.71,-631.32"/>
+<polygon fill="#505050" stroke="#505050" points="565.25,-633.24 569.83,-627.41 562.62,-629.11 565.25,-633.24"/>
+<text text-anchor="middle" x="405.87" y="-680" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F01 设备选择、航线选择</text>
+<text text-anchor="middle" x="405.87" y="-662" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与巡检操作信息</text>
+</g>
+<!-- E01-&gt;P1 -->
+<g id="P1-flow-F27" data-flow-id="F27" class="edge">
+<title>E01-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M231.6,-581.45C347.06,-576.71 522.74,-569.5 522.74,-569.5 522.74,-569.5 529.94,-568.68 541.35,-567.39"/>
+<polygon fill="#505050" stroke="#505050" points="541.86,-569.8 548.54,-566.57 541.31,-564.93 541.86,-569.8"/>
+<text text-anchor="middle" x="405.87" y="-601" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F27 场景／航线筛选与详情选择</text>
+<text text-anchor="middle" x="405.87" y="-583" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">新航线保存确认</text>
+</g>
+<!-- E01-&gt;P1 -->
+<g id="P1-flow-F48" data-flow-id="F48" class="edge">
+<title>E01-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M231.8,-558.27C262.76,-549.73 289,-542.5 289,-542.5 289,-542.5 522.74,-542.5 522.74,-542.5 522.74,-542.5 529.71,-542.83 540.82,-543.36"/>
+<polygon fill="#505050" stroke="#505050" points="540.7,-545.81 547.81,-543.7 540.94,-540.92 540.7,-545.81"/>
+<text text-anchor="middle" x="405.87" y="-547" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F48 所选航线与删除请求</text>
+</g>
+<!-- E01-&gt;P1 -->
+<g id="P1-flow-F51" data-flow-id="F51" class="edge">
+<title>E01-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M201.88,-545.76C243.67,-521.65 289,-495.5 289,-495.5 289,-495.5 522.74,-495.5 522.74,-495.5 522.74,-495.5 532.74,-498.78 547.86,-503.75"/>
+<polygon fill="#505050" stroke="#505050" points="547.22,-506.12 554.63,-505.97 548.75,-501.46 547.22,-506.12"/>
+<text text-anchor="middle" x="405.87" y="-518" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F51 作业参数查看／修改信息</text>
+<text text-anchor="middle" x="405.87" y="-500" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及目标对象</text>
+</g>
+<!-- P1-&gt;E01 -->
+<g id="P1-flow-F02" data-flow-id="F02" class="edge">
+<title>P1-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M593.52,-445.42C556.39,-405.07 522.74,-368.5 522.74,-368.5 522.74,-368.5 289,-368.5 289,-368.5 289,-368.5 211.72,-476.01 165.94,-539.68"/>
+<polygon fill="#505050" stroke="#505050" points="163.71,-538.59 161.61,-545.7 167.69,-541.45 163.71,-538.59"/>
+<text text-anchor="middle" x="405.87" y="-391" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F02 连接结果、自检结果</text>
+<text text-anchor="middle" x="405.87" y="-373" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与设备／巡检状态</text>
+</g>
+<!-- P1-&gt;E01 -->
+<g id="P1-flow-F28" data-flow-id="F28" class="edge">
+<title>P1-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M605.74,-434.99C564.12,-378.08 522.74,-321.5 522.74,-321.5 522.74,-321.5 289,-321.5 289,-321.5 289,-321.5 204.9,-463.83 160.2,-539.47"/>
+<polygon fill="#505050" stroke="#505050" points="157.98,-538.42 156.52,-545.69 162.19,-540.91 157.98,-538.42"/>
+<text text-anchor="middle" x="405.87" y="-344" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F28 航线列表／航点详情</text>
+<text text-anchor="middle" x="405.87" y="-326" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">保存结果或异常信息</text>
+</g>
+<!-- P1-&gt;E01 -->
+<g id="P1-flow-F49" data-flow-id="F49" class="edge">
+<title>P1-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M616.02,-428.24C571.23,-354.41 522.74,-274.5 522.74,-274.5 522.74,-274.5 289,-274.5 289,-274.5 289,-274.5 199.51,-452.91 156.09,-539.47"/>
+<polygon fill="#505050" stroke="#505050" points="153.86,-538.44 152.92,-545.8 158.24,-540.64 153.86,-538.44"/>
+<text text-anchor="middle" x="405.87" y="-297" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F49 航线删除处理结果</text>
+<text text-anchor="middle" x="405.87" y="-279" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">或拒绝／失败原因</text>
+</g>
+<!-- P1-&gt;E01 -->
+<g id="P1-flow-F52" data-flow-id="F52" class="edge">
+<title>P1-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M624.26,-423.31C577.4,-332.92 522.74,-227.5 522.74,-227.5 522.74,-227.5 289,-227.5 289,-227.5 289,-227.5 195.26,-442.61 153.11,-539.34"/>
+<polygon fill="#505050" stroke="#505050" points="150.84,-538.42 150.29,-545.82 155.33,-540.38 150.84,-538.42"/>
+<text text-anchor="middle" x="405.87" y="-250" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F52 当前参数与修改结果</text>
+<text text-anchor="middle" x="405.87" y="-232" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">或校验／保存失败说明</text>
+</g>
+<!-- E02 -->
+<g id="P1-node3" class="node" data-model-node="E02" data-duplicate="true">
+<title>E02</title>
+<polygon fill="none" stroke="#303030" points="1307.14,-805.2 1136.5,-805.2 1136.5,-725.8 1307.14,-725.8 1307.14,-805.2"/>
+<text text-anchor="middle" x="1221.82" y="-780.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E02</text>
+<text text-anchor="middle" x="1221.82" y="-760.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">机载无人机系统</text>
+<text text-anchor="middle" x="1221.82" y="-740" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（外部交付）</text>
+</g>
+<!-- P1-&gt;E02 -->
+<g id="P1-flow-F03" data-flow-id="F03" class="edge">
+<title>P1-&gt;E02</title>
+<path fill="none" stroke="#505050" d="M811.7,-628.98C838.76,-646.75 859.69,-660.5 859.69,-660.5 859.69,-660.5 1022.2,-707.75 1129.19,-738.86"/>
+<polygon fill="#505050" stroke="#505050" points="1128.75,-741.28 1136.15,-740.88 1130.11,-736.58 1128.75,-741.28"/>
+<text text-anchor="middle" x="965.51" y="-741" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F03 发现／连接、航线同步</text>
+<text text-anchor="middle" x="965.51" y="-723" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">自检及启动／返航请求</text>
+</g>
+<!-- S01 -->
+<g id="P1-node4" class="node" data-model-node="S01" data-duplicate="true">
+<title>S01</title>
+<polyline fill="none" stroke="#303030" points="1096.82,-597.5 1347.82,-597.5 "/>
+<polyline fill="none" stroke="#303030" points="1347.82,-678.5 1096.82,-678.5 "/>
+<text text-anchor="start" x="1209.1" y="-653.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S01</text>
+<text text-anchor="start" x="1159.86" y="-632.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 本地巡检资料</text>
+<text text-anchor="start" x="1106.43" y="-612.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（任务、成果、同步码记录）</text>
+</g>
+<!-- P1-&gt;S01 -->
+<g id="P1-flow-F16" data-flow-id="F16" class="edge">
+<title>P1-&gt;S01</title>
+<path fill="none" stroke="#505050" d="M832.41,-577.29C848.73,-580.41 859.69,-582.5 859.69,-582.5 859.69,-582.5 985.99,-602.09 1089.21,-618.09"/>
+<polygon fill="#505050" stroke="#505050" points="1088.99,-620.54 1096.29,-619.19 1089.75,-615.69 1088.99,-620.54"/>
+<text text-anchor="middle" x="965.51" y="-636" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F16 任务关联与</text>
+<text text-anchor="middle" x="965.51" y="-618" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">执行状态记录</text>
+</g>
+<!-- S03 -->
+<g id="P1-node5" class="node" data-model-node="S03" data-duplicate="true">
+<title>S03</title>
+<polyline fill="none" stroke="#303030" points="1098.82,-465.5 1344.82,-465.5 "/>
+<polyline fill="none" stroke="#303030" points="1344.82,-546.5 1098.82,-546.5 "/>
+<text text-anchor="start" x="1208.6" y="-521.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S03</text>
+<text text-anchor="start" x="1143.55" y="-500.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 已同步航线资料</text>
+<text text-anchor="start" x="1108.53" y="-480.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（场景关联、航线及航点）</text>
+</g>
+<!-- P1-&gt;S03 -->
+<g id="P1-flow-F29" data-flow-id="F29" class="edge">
+<title>P1-&gt;S03</title>
+<path fill="none" stroke="#505050" d="M834.22,-538.68C914.37,-532.01 1013.76,-523.73 1091.7,-517.25"/>
+<polygon fill="#505050" stroke="#505050" points="1091.93,-519.69 1098.7,-516.67 1091.52,-514.8 1091.93,-519.69"/>
+<text text-anchor="middle" x="965.51" y="-558" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F29 经使用者确认的同步航线</text>
+<text text-anchor="middle" x="965.51" y="-540" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及已有场景关联</text>
+</g>
+<!-- P1-&gt;S03 -->
+<g id="P1-flow-F50" data-flow-id="F50" class="edge">
+<title>P1-&gt;S03</title>
+<path fill="none" stroke="#505050" d="M821.69,-490.2C843.74,-479.93 859.69,-472.5 859.69,-472.5 859.69,-472.5 1071.32,-472.5 1071.32,-472.5 1071.32,-472.5 1079.43,-474.34 1091.86,-477.17"/>
+<polygon fill="#505050" stroke="#505050" points="1091.37,-479.57 1098.74,-478.74 1092.46,-474.79 1091.37,-479.57"/>
+<text text-anchor="middle" x="965.51" y="-495" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F50 航线资料删除变更</text>
+<text text-anchor="middle" x="965.51" y="-477" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（仅范围核定后适用）</text>
+</g>
+<!-- S05 -->
+<g id="P1-node7" class="node" data-model-node="S05" data-duplicate="true">
+<title>S05</title>
+<polyline fill="none" stroke="#303030" points="1107.82,-333.5 1336.82,-333.5 "/>
+<polyline fill="none" stroke="#303030" points="1336.82,-414.5 1107.82,-414.5 "/>
+<text text-anchor="start" x="1209.1" y="-389.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S05</text>
+<text text-anchor="start" x="1173.92" y="-368.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">作业参数资料</text>
+<text text-anchor="start" x="1117.73" y="-348.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（适用对象与口径待定）</text>
+</g>
+<!-- P1-&gt;S05 -->
+<g id="P1-flow-F54" data-flow-id="F54" class="edge">
+<title>P1-&gt;S05</title>
+<path fill="none" stroke="#505050" d="M806.7,-465.05C836.14,-443.08 859.69,-425.5 859.69,-425.5 859.69,-425.5 994.91,-406.4 1099.87,-391.58"/>
+<polygon fill="#505050" stroke="#505050" points="1100.46,-393.97 1107.05,-390.57 1099.78,-389.12 1100.46,-393.97"/>
+<text text-anchor="middle" x="965.51" y="-448" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F54 经校验的参数更新</text>
+<text text-anchor="middle" x="965.51" y="-430" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（适用范围待核对）</text>
+</g>
+<!-- E02-&gt;P1 -->
+<g id="P1-flow-F04" data-flow-id="F04" class="edge">
+<title>E02-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M1142.33,-725.78C1117.47,-713.2 1096.32,-702.5 1096.32,-702.5 1096.32,-702.5 1071.32,-349.5 1071.32,-349.5 1071.32,-349.5 859.69,-349.5 859.69,-349.5 859.69,-349.5 825.71,-390.28 788.36,-435.11"/>
+<polygon fill="#505050" stroke="#505050" points="786.39,-433.64 783.79,-440.59 790.16,-436.78 786.39,-433.64"/>
+<text text-anchor="middle" x="965.51" y="-372" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F04 连接／航线／自检反馈</text>
+<text text-anchor="middle" x="965.51" y="-354" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">遥测与指令执行状态</text>
+</g>
+<!-- S03-&gt;P1 -->
+<g id="P1-flow-F30" data-flow-id="F30" class="edge">
+<title>S03-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M1146.6,-465.96C1119.94,-451.4 1096.32,-438.5 1096.32,-438.5 1096.32,-438.5 1071.32,-192.5 1071.32,-192.5 1071.32,-192.5 859.69,-192.5 859.69,-192.5 859.69,-192.5 803.34,-312.95 756.02,-414.11"/>
+<polygon fill="#505050" stroke="#505050" points="753.66,-413.37 752.91,-420.75 758.1,-415.45 753.66,-413.37"/>
+<text text-anchor="middle" x="965.51" y="-215" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F30 已保存航线与航点</text>
+<text text-anchor="middle" x="965.51" y="-197" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及场景关联资料</text>
+</g>
+<!-- S04 -->
+<g id="P1-node6" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="0,0.5 264,0.5 "/>
+<polyline fill="none" stroke="#303030" points="264,-80.5 0,-80.5 "/>
+<text text-anchor="start" x="118.77" y="-55.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="50.32" y="-34.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="9.79" y="-14.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- S04-&gt;P1 -->
+<g id="P1-flow-F43" data-flow-id="F43" class="edge">
+<title>S04-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M233.11,-81.09C348.59,-127.9 522.74,-198.5 522.74,-198.5 522.74,-198.5 578.34,-315.37 625.47,-414.43"/>
+<polygon fill="#505050" stroke="#505050" points="623.35,-415.66 628.57,-420.93 627.77,-413.55 623.35,-415.66"/>
+<text text-anchor="middle" x="405.87" y="-203" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F43 当前操作者身份及操作范围</text>
+</g>
+<!-- S05-&gt;P1 -->
+<g id="P1-flow-F53" data-flow-id="F53" class="edge">
+<title>S05-&gt;P1</title>
+<path fill="none" stroke="#505050" d="M1192,-333.82C1148.55,-272.5 1071.32,-163.5 1071.32,-163.5 1071.32,-163.5 859.69,-163.5 859.69,-163.5 859.69,-163.5 800.1,-301.21 752.01,-412.33"/>
+<polygon fill="#505050" stroke="#505050" points="749.68,-411.54 749.15,-418.94 754.18,-413.49 749.68,-411.54"/>
+<text text-anchor="middle" x="965.51" y="-168" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F53 当前作业参数及适用对象</text>
+</g>
+</g>
+</svg>
+<svg x="1474.5" y="335.5" width="1271" height="588" viewBox="0 0 1271 588" data-process="P3">
+<g id="P3-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 573.4)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-573.4 1256.04,-573.4 1256.04,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="620.82" y="-535.2" font-family="Microsoft YaHei" font-size="22.00">3.0 管理同步码 并同步校验成果（App／Web）</text>
+<!-- E01 -->
+<g id="P3-node1" class="node" data-model-node="E01" data-duplicate="true">
+<title>E01</title>
+<polygon fill="none" stroke="#303030" points="231.68,-524.7 32.32,-524.7 32.32,-445.3 231.68,-445.3 231.68,-524.7"/>
+<text text-anchor="middle" x="132" y="-500.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E01</text>
+<text text-anchor="middle" x="132" y="-479.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 现场使用者</text>
+<text text-anchor="middle" x="132" y="-459.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（权限依用例图核对）</text>
+</g>
+<!-- P3 -->
+<g id="P3-node2" class="node" data-model-node="P3">
+<title>P3</title>
+<ellipse fill="none" stroke="#303030" cx="647.61" cy="-309" rx="114.41" ry="114.41"/>
+<text text-anchor="middle" x="647.61" y="-324.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">3.0 管理同步码</text>
+<text text-anchor="middle" x="647.61" y="-303.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">并同步校验成果</text>
+<text text-anchor="middle" x="647.61" y="-283.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（App／Web）</text>
+</g>
+<!-- E01-&gt;P3 -->
+<g id="P3-flow-F08" data-flow-id="F08" class="edge">
+<title>E01-&gt;P3</title>
+<path fill="none" stroke="#505050" d="M232.06,-471.53C343.21,-456.42 508.16,-434 508.16,-434 508.16,-434 530.22,-414.08 556.73,-390.15"/>
+<polygon fill="#505050" stroke="#505050" points="558.53,-391.82 562.08,-385.31 555.25,-388.19 558.53,-391.82"/>
+<text text-anchor="middle" x="398.58" y="-484.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F08 任务选择与</text>
+<text text-anchor="middle" x="398.58" y="-466.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">同步码获取请求</text>
+</g>
+<!-- P3-&gt;E01 -->
+<g id="P3-flow-F09" data-flow-id="F09" class="edge">
+<title>P3-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M536.84,-338.33C520.04,-342.82 508.16,-346 508.16,-346 508.16,-346 289,-387 289,-387 289,-387 244.16,-415.17 202.56,-441.3"/>
+<polygon fill="#505050" stroke="#505050" points="201.08,-439.34 196.45,-445.14 203.68,-443.49 201.08,-439.34"/>
+<text text-anchor="middle" x="398.58" y="-409.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F09 同步码、有效期</text>
+<text text-anchor="middle" x="398.58" y="-391.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与文件清单摘要</text>
+</g>
+<!-- E03 -->
+<g id="P3-node3" class="node" data-model-node="E03" data-duplicate="true">
+<title>E03</title>
+<polygon fill="none" stroke="#303030" points="1219.14,-474.7 1003.13,-474.7 1003.13,-395.3 1219.14,-395.3 1219.14,-474.7"/>
+<text text-anchor="middle" x="1111.14" y="-450.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E03</text>
+<text text-anchor="middle" x="1111.14" y="-429.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">Web 数据中心使用者</text>
+<text text-anchor="middle" x="1111.14" y="-409.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（具体角色待确认）</text>
+</g>
+<!-- P3-&gt;E03 -->
+<g id="P3-flow-F11" data-flow-id="F11" class="edge">
+<title>P3-&gt;E03</title>
+<path fill="none" stroke="#505050" d="M756.34,-345.57C774.21,-351.64 787.07,-356 787.07,-356 787.07,-356 903.09,-384.37 996.07,-407.11"/>
+<polygon fill="#505050" stroke="#505050" points="995.63,-409.52 1003.01,-408.8 996.79,-404.76 995.63,-409.52"/>
+<text text-anchor="middle" x="871.35" y="-417.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F11 同步／完整性结果</text>
+<text text-anchor="middle" x="871.35" y="-399.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与缺失附件清单</text>
+</g>
+<!-- E04 -->
+<g id="P3-node4" class="node" data-model-node="E04">
+<title>E04</title>
+<polygon fill="none" stroke="#303030" points="1227.81,-348.7 994.46,-348.7 994.46,-269.3 1227.81,-269.3 1227.81,-348.7"/>
+<text text-anchor="middle" x="1111.14" y="-324.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E04</text>
+<text text-anchor="middle" x="1111.14" y="-303.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">机载／中转暂存节点</text>
+<text text-anchor="middle" x="1111.14" y="-283.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（部署及归属待核对）</text>
+</g>
+<!-- P3-&gt;E04 -->
+<g id="P3-flow-F12" data-flow-id="F12" class="edge">
+<title>P3-&gt;E04</title>
+<path fill="none" stroke="#505050" d="M762.1,-309C830.36,-309 917.25,-309 987.13,-309"/>
+<polygon fill="#505050" stroke="#505050" points="987.27,-311.45 994.27,-309 987.27,-306.55 987.27,-311.45"/>
+<text text-anchor="middle" x="871.35" y="-331.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F12 任务成果获取请求</text>
+<text text-anchor="middle" x="871.35" y="-313.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（访问路径待核对）</text>
+</g>
+<!-- S01 -->
+<g id="P3-node5" class="node" data-model-node="S01" data-duplicate="true">
+<title>S01</title>
+<polyline fill="none" stroke="#303030" points="7,-268 258,-268 "/>
+<polyline fill="none" stroke="#303030" points="258,-349 7,-349 "/>
+<text text-anchor="start" x="119.27" y="-323.7" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S01</text>
+<text text-anchor="start" x="70.04" y="-303.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 本地巡检资料</text>
+<text text-anchor="start" x="16.61" y="-282.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（任务、成果、同步码记录）</text>
+</g>
+<!-- P3-&gt;S01 -->
+<g id="P3-flow-F20" data-flow-id="F20" class="edge">
+<title>P3-&gt;S01</title>
+<path fill="none" stroke="#505050" d="M540.27,-268.29C521.68,-261.18 508.16,-256 508.16,-256 508.16,-256 289,-256 289,-256 289,-256 276.76,-260.16 259.15,-266.14"/>
+<polygon fill="#505050" stroke="#505050" points="258.26,-263.85 252.42,-268.43 259.84,-268.49 258.26,-263.85"/>
+<text text-anchor="middle" x="398.58" y="-278.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F20 同步码、有效期</text>
+<text text-anchor="middle" x="398.58" y="-260.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及摘要记录</text>
+</g>
+<!-- S02 -->
+<g id="P3-node6" class="node" data-model-node="S02" data-duplicate="true">
+<title>S02</title>
+<polyline fill="none" stroke="#303030" points="981.14,-141 1242.14,-141 "/>
+<polyline fill="none" stroke="#303030" points="1242.14,-222 981.14,-222 "/>
+<text text-anchor="start" x="1098.41" y="-196.7" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S02</text>
+<text text-anchor="start" x="1033.59" y="-176.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">Web 已接入任务资料</text>
+<text text-anchor="start" x="990.72" y="-155.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（任务、附件、校验记录）</text>
+</g>
+<!-- P3-&gt;S02 -->
+<g id="P3-flow-F21" data-flow-id="F21" class="edge">
+<title>P3-&gt;S02</title>
+<path fill="none" stroke="#505050" d="M756.34,-272.43C774.21,-266.36 787.07,-262 787.07,-262 787.07,-262 885.52,-237.62 973.72,-215.78"/>
+<polygon fill="#505050" stroke="#505050" points="974.39,-218.14 980.59,-214.08 973.21,-213.38 974.39,-218.14"/>
+<text text-anchor="middle" x="871.35" y="-284.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F21 已接入任务成果</text>
+<text text-anchor="middle" x="871.35" y="-266.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与校验状态记录</text>
+</g>
+<!-- E03-&gt;P3 -->
+<g id="P3-flow-F10" data-flow-id="F10" class="edge">
+<title>E03-&gt;P3</title>
+<path fill="none" stroke="#505050" d="M1028.49,-395.28C1002.63,-382.7 980.64,-372 980.64,-372 980.64,-372 955.64,-88 955.64,-88 955.64,-88 787.07,-88 787.07,-88 787.07,-88 749.05,-148.68 712.86,-206.45"/>
+<polygon fill="#505050" stroke="#505050" points="710.78,-205.15 709.14,-212.39 714.93,-207.76 710.78,-205.15"/>
+<text text-anchor="middle" x="871.35" y="-110.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F10 同步码与</text>
+<text text-anchor="middle" x="871.35" y="-92.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">任务同步请求</text>
+</g>
+<!-- E04-&gt;P3 -->
+<g id="P3-flow-F13" data-flow-id="F13" class="edge">
+<title>E04-&gt;P3</title>
+<path fill="none" stroke="#505050" d="M1028.49,-269.28C1002.63,-256.7 980.64,-246 980.64,-246 980.64,-246 955.64,0 955.64,0 955.64,0 787.07,0 787.07,0 787.07,0 737.98,-109.56 698.26,-198.2"/>
+<polygon fill="#505050" stroke="#505050" points="695.92,-197.43 695.29,-204.82 700.39,-199.43 695.92,-197.43"/>
+<text text-anchor="middle" x="871.35" y="-22.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F13 成果包与文件清单</text>
+<text text-anchor="middle" x="871.35" y="-4.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（访问路径待核对）</text>
+</g>
+<!-- S01-&gt;P3 -->
+<g id="P3-flow-F19" data-flow-id="F19" class="edge">
+<title>S01-&gt;P3</title>
+<path fill="none" stroke="#505050" d="M257.81,-304.2C276.14,-303.49 289,-303 289,-303 289,-303 508.16,-303 508.16,-303 508.16,-303 515.15,-303.3 526,-303.77"/>
+<polygon fill="#505050" stroke="#505050" points="526.13,-306.23 533.23,-304.09 526.34,-301.34 526.13,-306.23"/>
+<text text-anchor="middle" x="398.58" y="-325.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F19 待同步任务</text>
+<text text-anchor="middle" x="398.58" y="-307.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与已有成果</text>
+</g>
+<!-- S04 -->
+<g id="P3-node7" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="0,-110 264,-110 "/>
+<polyline fill="none" stroke="#303030" points="264,-191 0,-191 "/>
+<text text-anchor="start" x="118.77" y="-165.7" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="50.32" y="-145.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="9.79" y="-124.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- S04-&gt;P3 -->
+<g id="P3-flow-F45" data-flow-id="F45" class="edge">
+<title>S04-&gt;P3</title>
+<path fill="none" stroke="#505050" d="M264.21,-177.58C372.4,-199.5 508.16,-227 508.16,-227 508.16,-227 522.68,-235.6 542.33,-247.24"/>
+<polygon fill="#505050" stroke="#505050" points="541.3,-249.48 548.58,-250.94 543.8,-245.26 541.3,-249.48"/>
+<text text-anchor="middle" x="398.58" y="-231.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F45 当前端身份及同步授权范围</text>
+</g>
+</g>
+</svg>
+<svg x="41.5" y="977" width="1342" height="694" viewBox="0 0 1342 694" data-process="P2">
+<g id="P2-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 678.9)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-678.9 1327.07,-678.9 1327.07,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="656.33" y="-640.7" font-family="Microsoft YaHei" font-size="22.00">2.0 接入与管理本机成果 并提供三维展示（Android）</text>
+<!-- E02 -->
+<g id="P2-node1" class="node" data-model-node="E02" data-duplicate="true">
+<title>E02</title>
+<polygon fill="none" stroke="#303030" points="217.32,-630.2 46.68,-630.2 46.68,-550.8 217.32,-550.8 217.32,-630.2"/>
+<text text-anchor="middle" x="132" y="-605.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E02</text>
+<text text-anchor="middle" x="132" y="-585.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">机载无人机系统</text>
+<text text-anchor="middle" x="132" y="-565" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（外部交付）</text>
+</g>
+<!-- P2 -->
+<g id="P2-node2" class="node" data-model-node="P2">
+<title>P2</title>
+<ellipse fill="none" stroke="#303030" cx="672.23" cy="-238.5" rx="131.3" ry="131.3"/>
+<text text-anchor="middle" x="672.23" y="-253.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">2.0 接入与管理本机成果</text>
+<text text-anchor="middle" x="672.23" y="-233.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">并提供三维展示</text>
+<text text-anchor="middle" x="672.23" y="-213" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（Android）</text>
+</g>
+<!-- E02-&gt;P2 -->
+<g id="P2-flow-F05" data-flow-id="F05" class="edge">
+<title>E02-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M217.54,-570.2C330.35,-543.1 516.08,-498.5 516.08,-498.5 516.08,-498.5 559.49,-425.75 600.38,-357.22"/>
+<polygon fill="#505050" stroke="#505050" points="602.59,-358.29 604.08,-351.03 598.39,-355.78 602.59,-358.29"/>
+<text text-anchor="middle" x="402.54" y="-575" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F05 同一任务的巡检成果</text>
+<text text-anchor="middle" x="402.54" y="-557" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与处理状态</text>
+</g>
+<!-- E01 -->
+<g id="P2-node3" class="node" data-model-node="E01" data-duplicate="true">
+<title>E01</title>
+<polygon fill="none" stroke="#303030" points="231.68,-479.2 32.32,-479.2 32.32,-399.8 231.68,-399.8 231.68,-479.2"/>
+<text text-anchor="middle" x="132" y="-454.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E01</text>
+<text text-anchor="middle" x="132" y="-434.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 现场使用者</text>
+<text text-anchor="middle" x="132" y="-414" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（权限依用例图核对）</text>
+</g>
+<!-- P2-&gt;E01 -->
+<g id="P2-flow-F07" data-flow-id="F07" class="edge">
+<title>P2-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M569.47,-320.48C540.23,-344.04 516.08,-363.5 516.08,-363.5 516.08,-363.5 289,-404.5 289,-404.5 289,-404.5 266.7,-409.5 238.96,-415.73"/>
+<polygon fill="#505050" stroke="#505050" points="238.09,-413.41 231.8,-417.33 239.16,-418.19 238.09,-413.41"/>
+<text text-anchor="middle" x="402.54" y="-427" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F07 处理进度、三维成果</text>
+<text text-anchor="middle" x="402.54" y="-409" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">堆体与测算指标</text>
+</g>
+<!-- P2-&gt;E01 -->
+<g id="P2-flow-F32" data-flow-id="F32" class="edge">
+<title>P2-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M544.53,-268.71C527.68,-272.73 516.08,-275.5 516.08,-275.5 516.08,-275.5 289,-316.5 289,-316.5 289,-316.5 234,-359.86 189.32,-395.09"/>
+<polygon fill="#505050" stroke="#505050" points="187.63,-393.31 183.65,-399.57 190.66,-397.16 187.63,-393.31"/>
+<text text-anchor="middle" x="402.54" y="-339" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F32 记录列表／空结果与有效状态</text>
+<text text-anchor="middle" x="402.54" y="-321" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">清理结果或失败说明</text>
+</g>
+<!-- S01 -->
+<g id="P2-node4" class="node" data-model-node="S01" data-duplicate="true">
+<title>S01</title>
+<polyline fill="none" stroke="#303030" points="1062.17,-197.5 1313.17,-197.5 "/>
+<polyline fill="none" stroke="#303030" points="1313.17,-278.5 1062.17,-278.5 "/>
+<text text-anchor="start" x="1174.44" y="-253.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S01</text>
+<text text-anchor="start" x="1125.21" y="-232.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 本地巡检资料</text>
+<text text-anchor="start" x="1071.78" y="-212.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（任务、成果、同步码记录）</text>
+</g>
+<!-- P2-&gt;S01 -->
+<g id="P2-flow-F17" data-flow-id="F17" class="edge">
+<title>P2-&gt;S01</title>
+<path fill="none" stroke="#505050" d="M803.66,-238.5C880.29,-238.5 976.89,-238.5 1053.85,-238.5"/>
+<polygon fill="#505050" stroke="#505050" points="1054.23,-240.95 1061.23,-238.5 1054.23,-236.05 1054.23,-240.95"/>
+<text text-anchor="middle" x="932.52" y="-261" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F17 成果资料与</text>
+<text text-anchor="middle" x="932.52" y="-243" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">处理状态记录</text>
+</g>
+<!-- P2-&gt;S01 -->
+<g id="P2-flow-F34" data-flow-id="F34" class="edge">
+<title>P2-&gt;S01</title>
+<path fill="none" stroke="#505050" d="M798.09,-200.67C815.93,-195.27 828.38,-191.5 828.38,-191.5 828.38,-191.5 1036.67,-191.5 1036.67,-191.5 1036.67,-191.5 1043.61,-193.68 1054.51,-197.11"/>
+<polygon fill="#505050" stroke="#505050" points="1053.94,-199.5 1061.35,-199.26 1055.41,-194.82 1053.94,-199.5"/>
+<text text-anchor="middle" x="932.52" y="-214" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F34 本机记录清理变更</text>
+<text text-anchor="middle" x="932.52" y="-196" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与结果失效标记</text>
+</g>
+<!-- E01-&gt;P2 -->
+<g id="P2-flow-F06" data-flow-id="F06" class="edge">
+<title>E01-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M231.8,-447.1C262.76,-449.48 289,-451.5 289,-451.5 289,-451.5 516.08,-451.5 516.08,-451.5 516.08,-451.5 552.46,-401.55 589.99,-350.03"/>
+<polygon fill="#505050" stroke="#505050" points="592.19,-351.16 594.33,-344.06 588.23,-348.28 592.19,-351.16"/>
+<text text-anchor="middle" x="402.54" y="-474" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F06 所选任务与成果</text>
+<text text-anchor="middle" x="402.54" y="-456" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">查看／交互信息</text>
+</g>
+<!-- E01-&gt;P2 -->
+<g id="P2-flow-F31" data-flow-id="F31" class="edge">
+<title>E01-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M163.08,-399.59C208.41,-339.44 289,-232.5 289,-232.5 289,-232.5 516.08,-232.5 516.08,-232.5 516.08,-232.5 522.94,-232.77 533.77,-233.18"/>
+<polygon fill="#505050" stroke="#505050" points="533.91,-235.64 541,-233.46 534.1,-230.75 533.91,-235.64"/>
+<text text-anchor="middle" x="402.54" y="-255" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F31 记录筛选条件</text>
+<text text-anchor="middle" x="402.54" y="-237" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">所选记录与清理确认</text>
+</g>
+<!-- S01-&gt;P2 -->
+<g id="P2-flow-F18" data-flow-id="F18" class="edge">
+<title>S01-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M1142.12,-197.84C1098.02,-157.14 1036.67,-100.5 1036.67,-100.5 1036.67,-100.5 828.38,-100.5 828.38,-100.5 828.38,-100.5 805.02,-121.27 776.44,-146.7"/>
+<polygon fill="#505050" stroke="#505050" points="774.65,-145.01 771.05,-151.49 777.9,-148.67 774.65,-145.01"/>
+<text text-anchor="middle" x="932.52" y="-123" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F18 所选任务</text>
+<text text-anchor="middle" x="932.52" y="-105" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与成果资料</text>
+</g>
+<!-- S01-&gt;P2 -->
+<g id="P2-flow-F33" data-flow-id="F33" class="edge">
+<title>S01-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M1153.36,-197.9C1109.35,-143.44 1036.67,-53.5 1036.67,-53.5 1036.67,-53.5 828.38,-53.5 828.38,-53.5 828.38,-53.5 796.63,-91.35 761.86,-132.82"/>
+<polygon fill="#505050" stroke="#505050" points="759.78,-131.48 757.16,-138.42 763.53,-134.63 759.78,-131.48"/>
+<text text-anchor="middle" x="932.52" y="-76" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F33 本机记录索引、场景关联</text>
+<text text-anchor="middle" x="932.52" y="-58" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">巡检时间与有效性资料</text>
+</g>
+<!-- S04 -->
+<g id="P2-node5" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="0,-127.5 264,-127.5 "/>
+<polyline fill="none" stroke="#303030" points="264,-208.5 0,-208.5 "/>
+<text text-anchor="start" x="118.77" y="-183.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="50.32" y="-162.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="9.79" y="-142.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- S04-&gt;P2 -->
+<g id="P2-flow-F44" data-flow-id="F44" class="edge">
+<title>S04-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M264.28,-163.45C279.1,-162.88 289,-162.5 289,-162.5 289,-162.5 516.08,-162.5 516.08,-162.5 516.08,-162.5 529.08,-168.87 547.56,-177.92"/>
+<polygon fill="#505050" stroke="#505050" points="546.67,-180.21 554.03,-181.09 548.82,-175.81 546.67,-180.21"/>
+<text text-anchor="middle" x="402.54" y="-167" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F44 当前操作者身份及数据范围</text>
+</g>
+<!-- S05 -->
+<g id="P2-node6" class="node" data-model-node="S05" data-duplicate="true">
+<title>S05</title>
+<polyline fill="none" stroke="#303030" points="18,0.5 247,0.5 "/>
+<polyline fill="none" stroke="#303030" points="247,-80.5 18,-80.5 "/>
+<text text-anchor="start" x="119.27" y="-55.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S05</text>
+<text text-anchor="start" x="84.1" y="-34.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">作业参数资料</text>
+<text text-anchor="start" x="27.91" y="-14.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（适用对象与口径待定）</text>
+</g>
+<!-- S05-&gt;P2 -->
+<g id="P2-flow-F55" data-flow-id="F55" class="edge">
+<title>S05-&gt;P2</title>
+<path fill="none" stroke="#505050" d="M246.64,-62.75C359.58,-84.86 516.08,-115.5 516.08,-115.5 516.08,-115.5 536.92,-132.02 563.32,-152.96"/>
+<polygon fill="#505050" stroke="#505050" points="562.03,-155.06 569.04,-157.49 565.07,-151.22 562.03,-155.06"/>
+<text text-anchor="middle" x="402.54" y="-138" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F55 展示折算所用容重</text>
+<text text-anchor="middle" x="402.54" y="-120" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（生效对象待核对）</text>
+</g>
+</g>
+</svg>
+<svg x="1431" y="953.5" width="1358" height="344" viewBox="0 0 1358 344" data-process="P4">
+<g id="P4-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 328.7)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-328.7 1343.2,-328.7 1343.2,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="664.4" y="-290.5" font-family="Microsoft YaHei" font-size="22.00">4.0 检索任务并提供 详情与成果下载（Web）</text>
+<!-- E03 -->
+<g id="P4-node1" class="node" data-model-node="E03" data-duplicate="true">
+<title>E03</title>
+<polygon fill="none" stroke="#303030" points="1328.8,-155.6 1112.8,-155.6 1112.8,-76.2 1328.8,-76.2 1328.8,-155.6"/>
+<text text-anchor="middle" x="1220.8" y="-131.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E03</text>
+<text text-anchor="middle" x="1220.8" y="-110.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">Web 数据中心使用者</text>
+<text text-anchor="middle" x="1220.8" y="-90.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（具体角色待确认）</text>
+</g>
+<!-- P4 -->
+<g id="P4-node2" class="node" data-model-node="P4">
+<title>P4</title>
+<ellipse fill="none" stroke="#303030" cx="688.21" cy="-115.9" rx="115.8" ry="115.8"/>
+<text text-anchor="middle" x="688.21" y="-131.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">4.0 检索任务并提供</text>
+<text text-anchor="middle" x="688.21" y="-110.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">详情与成果下载</text>
+<text text-anchor="middle" x="688.21" y="-90.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（Web）</text>
+</g>
+<!-- E03-&gt;P4 -->
+<g id="P4-flow-F14" data-flow-id="F14" class="edge">
+<title>E03-&gt;P4</title>
+<path fill="none" stroke="#505050" d="M1154.96,-155.69C1121.58,-176.17 1087.8,-196.9 1087.8,-196.9 1087.8,-196.9 829.11,-196.9 829.11,-196.9 829.11,-196.9 814.75,-188.58 795.23,-177.28"/>
+<polygon fill="#505050" stroke="#505050" points="796.31,-175.07 789.02,-173.69 793.85,-179.31 796.31,-175.07"/>
+<text text-anchor="middle" x="958.46" y="-219.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F14 检索条件与</text>
+<text text-anchor="middle" x="958.46" y="-201.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">所选任务信息</text>
+</g>
+<!-- E03-&gt;P4 -->
+<g id="P4-flow-F23" data-flow-id="F23" class="edge">
+<title>E03-&gt;P4</title>
+<path fill="none" stroke="#505050" d="M1112.58,-115.9C1025.39,-115.9 902.37,-115.9 811.39,-115.9"/>
+<polygon fill="#505050" stroke="#505050" points="811.34,-113.45 804.34,-115.9 811.34,-118.35 811.34,-113.45"/>
+<text text-anchor="middle" x="958.46" y="-138.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F23 下载请求：所选任务／附件</text>
+<text text-anchor="middle" x="958.46" y="-120.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">单个、所选或打包范围</text>
+</g>
+<!-- P4-&gt;E03 -->
+<g id="P4-flow-F15" data-flow-id="F15" class="edge">
+<title>P4-&gt;E03</title>
+<path fill="none" stroke="#505050" d="M797.72,-77.12C815.96,-70.6 829.11,-65.9 829.11,-65.9 829.11,-65.9 1087.8,-65.9 1087.8,-65.9 1087.8,-65.9 1096.02,-69.01 1108.35,-73.68"/>
+<polygon fill="#505050" stroke="#505050" points="1107.74,-76.07 1115.15,-76.26 1109.47,-71.49 1107.74,-76.07"/>
+<text text-anchor="middle" x="958.46" y="-88.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F15 任务列表、详情</text>
+<text text-anchor="middle" x="958.46" y="-70.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与三维／附件资料</text>
+</g>
+<!-- P4-&gt;E03 -->
+<g id="P4-flow-F24" data-flow-id="F24" class="edge">
+<title>P4-&gt;E03</title>
+<path fill="none" stroke="#505050" d="M774.22,-193.68C803.52,-220.48 829.11,-243.9 829.11,-243.9 829.11,-243.9 1087.8,-243.9 1087.8,-243.9 1087.8,-243.9 1135.62,-197.53 1173.7,-160.61"/>
+<polygon fill="#505050" stroke="#505050" points="1175.44,-162.33 1178.76,-155.7 1172.03,-158.81 1175.44,-162.33"/>
+<text text-anchor="middle" x="958.46" y="-266.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F24 所请求文件／打包结果</text>
+<text text-anchor="middle" x="958.46" y="-248.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">或不可下载原因与状态</text>
+</g>
+<!-- S02 -->
+<g id="P4-node3" class="node" data-model-node="S02" data-duplicate="true">
+<title>S02</title>
+<polyline fill="none" stroke="#303030" points="2,-147.9 263,-147.9 "/>
+<polyline fill="none" stroke="#303030" points="263,-228.9 2,-228.9 "/>
+<text text-anchor="start" x="119.27" y="-203.6" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S02</text>
+<text text-anchor="start" x="54.46" y="-183.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">Web 已接入任务资料</text>
+<text text-anchor="start" x="11.59" y="-162.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（任务、附件、校验记录）</text>
+</g>
+<!-- P4-&gt;S02 -->
+<g id="P4-flow-F25" data-flow-id="F25" class="edge">
+<title>P4-&gt;S02</title>
+<path fill="none" stroke="#505050" d="M575.96,-145.32C559.16,-149.76 547.32,-152.9 547.32,-152.9 547.32,-152.9 390.52,-166.52 269.84,-177.01"/>
+<polygon fill="#505050" stroke="#505050" points="269.43,-174.58 262.67,-177.63 269.86,-179.47 269.43,-174.58"/>
+<text text-anchor="middle" x="418.16" y="-197.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F25 待读取任务与附件标识</text>
+<text text-anchor="middle" x="418.16" y="-179.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（限授权范围）</text>
+</g>
+<!-- S02-&gt;P4 -->
+<g id="P4-flow-F22" data-flow-id="F22" class="edge">
+<title>S02-&gt;P4</title>
+<path fill="none" stroke="#505050" d="M213.28,-148.24C251.51,-128.88 289,-109.9 289,-109.9 289,-109.9 547.32,-109.9 547.32,-109.9 547.32,-109.9 554.28,-110.2 565.11,-110.66"/>
+<polygon fill="#505050" stroke="#505050" points="565.23,-113.12 572.33,-110.97 565.44,-108.22 565.23,-113.12"/>
+<text text-anchor="middle" x="418.16" y="-132.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F22 可查询任务</text>
+<text text-anchor="middle" x="418.16" y="-114.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">与附件资料</text>
+</g>
+<!-- S02-&gt;P4 -->
+<g id="P4-flow-F26" data-flow-id="F26" class="edge">
+<title>S02-&gt;P4</title>
+<path fill="none" stroke="#505050" d="M262.54,-216.3C278.31,-219.64 289,-221.9 289,-221.9 289,-221.9 547.32,-221.9 547.32,-221.9 547.32,-221.9 565.98,-207.76 589.67,-189.8"/>
+<polygon fill="#505050" stroke="#505050" points="591.36,-191.6 595.46,-185.42 588.4,-187.69 591.36,-191.6"/>
+<text text-anchor="middle" x="418.16" y="-244.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F26 可用文件内容与可用性资料</text>
+<text text-anchor="middle" x="418.16" y="-226.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（物理存储待核对）</text>
+</g>
+<!-- S04 -->
+<g id="P4-node4" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="0,-4.9 264,-4.9 "/>
+<polyline fill="none" stroke="#303030" points="264,-85.9 0,-85.9 "/>
+<text text-anchor="start" x="118.77" y="-60.6" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="50.32" y="-40.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="9.79" y="-19.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- S04-&gt;P4 -->
+<g id="P4-flow-F46" data-flow-id="F46" class="edge">
+<title>S04-&gt;P4</title>
+<path fill="none" stroke="#505050" d="M264.28,-40.85C279.1,-40.28 289,-39.9 289,-39.9 289,-39.9 547.32,-39.9 547.32,-39.9 547.32,-39.9 560.81,-47.23 579.42,-57.34"/>
+<polygon fill="#505050" stroke="#505050" points="578.59,-59.68 585.91,-60.87 580.93,-55.37 578.59,-59.68"/>
+<text text-anchor="middle" x="418.16" y="-44.4" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F46 查询／下载身份与数据范围</text>
+</g>
+</g>
+</svg>
+<svg x="39" y="1701" width="1347" height="434" viewBox="0 0 1347 434" data-process="P5">
+<g id="P5-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 419.4)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-419.4 1332.26,-419.4 1332.26,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="658.93" y="-381.2" font-family="Microsoft YaHei" font-size="22.00">5.0 接入身份认证 与管理应用会话（App／Web）</text>
+<!-- E01 -->
+<g id="P5-node1" class="node" data-model-node="E01" data-duplicate="true">
+<title>E01</title>
+<polygon fill="none" stroke="#303030" points="207.68,-370.7 8.32,-370.7 8.32,-291.3 207.68,-291.3 207.68,-370.7"/>
+<text text-anchor="middle" x="108" y="-346.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E01</text>
+<text text-anchor="middle" x="108" y="-325.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 现场使用者</text>
+<text text-anchor="middle" x="108" y="-305.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（权限依用例图核对）</text>
+</g>
+<!-- P5 -->
+<g id="P5-node2" class="node" data-model-node="P5">
+<title>P5</title>
+<ellipse fill="none" stroke="#303030" cx="618.47" cy="-208" rx="131.67" ry="131.67"/>
+<text text-anchor="middle" x="618.47" y="-223.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">5.0 接入身份认证</text>
+<text text-anchor="middle" x="618.47" y="-202.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">与管理应用会话</text>
+<text text-anchor="middle" x="618.47" y="-182.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（App／Web）</text>
+</g>
+<!-- E01-&gt;P5 -->
+<g id="P5-flow-F35" data-flow-id="F35" class="edge">
+<title>E01-&gt;P5</title>
+<path fill="none" stroke="#505050" d="M207.7,-316.73C312.02,-301.64 461.63,-280 461.63,-280 461.63,-280 474.01,-274.28 491.78,-266.07"/>
+<polygon fill="#505050" stroke="#505050" points="493.24,-268.1 498.57,-262.94 491.18,-263.65 493.24,-268.1"/>
+<text text-anchor="middle" x="351.32" y="-315.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F35 App 登录信息／退出请求</text>
+</g>
+<!-- P5-&gt;E01 -->
+<g id="P5-flow-F36" data-flow-id="F36" class="edge">
+<title>P5-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M486.85,-216.67C378.12,-223.89 241,-233 241,-233 241,-233 203.68,-260.71 168.73,-286.66"/>
+<polygon fill="#505050" stroke="#505050" points="166.85,-285 162.69,-291.14 169.77,-288.93 166.85,-285"/>
+<text text-anchor="middle" x="351.32" y="-255.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F36 App 登录／退出结果</text>
+<text text-anchor="middle" x="351.32" y="-237.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及登录态失效提示</text>
+</g>
+<!-- E03 -->
+<g id="P5-node3" class="node" data-model-node="E03" data-duplicate="true">
+<title>E03</title>
+<polygon fill="none" stroke="#303030" points="216,-212.7 -0,-212.7 -0,-133.3 216,-133.3 216,-212.7"/>
+<text text-anchor="middle" x="108" y="-188.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E03</text>
+<text text-anchor="middle" x="108" y="-167.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">Web 数据中心使用者</text>
+<text text-anchor="middle" x="108" y="-147.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（具体角色待确认）</text>
+</g>
+<!-- P5-&gt;E03 -->
+<g id="P5-flow-F38" data-flow-id="F38" class="edge">
+<title>P5-&gt;E03</title>
+<path fill="none" stroke="#505050" d="M503.4,-143.58C479.63,-130.16 461.63,-120 461.63,-120 461.63,-120 241,-120 241,-120 241,-120 229.93,-124.45 214.19,-130.77"/>
+<polygon fill="#505050" stroke="#505050" points="213.28,-128.49 207.69,-133.37 215.1,-133.04 213.28,-128.49"/>
+<text text-anchor="middle" x="351.32" y="-142.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F38 Web 登录／退出结果</text>
+<text text-anchor="middle" x="351.32" y="-124.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">及登录态失效提示</text>
+</g>
+<!-- E05 -->
+<g id="P5-node4" class="node" data-model-node="E05">
+<title>E05</title>
+<polygon fill="none" stroke="#303030" points="1305.22,-320.7 1066.5,-320.7 1066.5,-241.3 1305.22,-241.3 1305.22,-320.7"/>
+<text text-anchor="middle" x="1185.86" y="-296.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E05</text>
+<text text-anchor="middle" x="1185.86" y="-275.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">认证与授权能力</text>
+<text text-anchor="middle" x="1185.86" y="-255.5" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（部署／边界待核对）</text>
+</g>
+<!-- P5-&gt;E05 -->
+<g id="P5-flow-F39" data-flow-id="F39" class="edge">
+<title>P5-&gt;E05</title>
+<path fill="none" stroke="#505050" d="M749.53,-224.79C842.65,-236.82 967.31,-252.91 1059.37,-264.8"/>
+<polygon fill="#505050" stroke="#505050" points="1059.24,-267.25 1066.49,-265.72 1059.87,-262.39 1059.24,-267.25"/>
+<text text-anchor="middle" x="902.08" y="-281.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F39 身份校验／会话处理请求</text>
+<text text-anchor="middle" x="902.08" y="-263.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（按部署适用）</text>
+</g>
+<!-- S04 -->
+<g id="P5-node5" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="1053.86,-113 1317.86,-113 "/>
+<polyline fill="none" stroke="#303030" points="1317.86,-194 1053.86,-194 "/>
+<text text-anchor="start" x="1172.63" y="-168.7" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="1104.18" y="-148.3" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="1063.65" y="-127.9" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- P5-&gt;S04 -->
+<g id="P5-flow-F41" data-flow-id="F41" class="edge">
+<title>P5-&gt;S04</title>
+<path fill="none" stroke="#505050" d="M746.36,-175.43C763.48,-171.03 775.3,-168 775.3,-168 775.3,-168 927.66,-162.79 1046.52,-158.73"/>
+<polygon fill="#505050" stroke="#505050" points="1046.67,-161.18 1053.58,-158.49 1046.5,-156.28 1046.67,-161.18"/>
+<text text-anchor="middle" x="902.08" y="-190.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F41 应用会话及授权资料</text>
+<text text-anchor="middle" x="902.08" y="-172.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">建立／失效变更</text>
+</g>
+<!-- E03-&gt;P5 -->
+<g id="P5-flow-F37" data-flow-id="F37" class="edge">
+<title>E03-&gt;P5</title>
+<path fill="none" stroke="#505050" d="M216.17,-168.13C230.85,-167.46 241,-167 241,-167 241,-167 461.63,-167 461.63,-167 461.63,-167 470.36,-169.3 483.69,-172.8"/>
+<polygon fill="#505050" stroke="#505050" points="483.19,-175.2 490.58,-174.62 484.43,-170.47 483.19,-175.2"/>
+<text text-anchor="middle" x="351.32" y="-171.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F37 Web 登录信息／退出请求</text>
+</g>
+<!-- E05-&gt;P5 -->
+<g id="P5-flow-F40" data-flow-id="F40" class="edge">
+<title>E05-&gt;P5</title>
+<path fill="none" stroke="#505050" d="M1102.27,-241.28C1076.11,-228.7 1053.86,-218 1053.86,-218 1053.86,-218 1028.86,-112 1028.86,-112 1028.86,-112 775.3,-112 775.3,-112 775.3,-112 759.07,-122 737.09,-135.54"/>
+<polygon fill="#505050" stroke="#505050" points="735.74,-133.5 731.06,-139.25 738.31,-137.67 735.74,-133.5"/>
+<text text-anchor="middle" x="902.08" y="-134.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F40 身份处理结果与授权资料</text>
+<text text-anchor="middle" x="902.08" y="-116.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（角色／组织范围待核对）</text>
+</g>
+<!-- S04-&gt;P5 -->
+<g id="P5-flow-F42" data-flow-id="F42" class="edge">
+<title>S04-&gt;P5</title>
+<path fill="none" stroke="#505050" d="M1143.46,-113.14C1097.25,-67.51 1028.86,0 1028.86,0 1028.86,0 775.3,0 775.3,0 775.3,0 739.74,-47.46 702.6,-97.04"/>
+<polygon fill="#505050" stroke="#505050" points="700.53,-95.71 698.3,-102.78 704.46,-98.65 700.53,-95.71"/>
+<text text-anchor="middle" x="902.08" y="-4.5" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F42 当前会话与已验证身份资料</text>
+</g>
+</g>
+</svg>
+<svg x="1483.5" y="1327.5" width="1253" height="550" viewBox="0 0 1253 550" data-process="P6">
+<g id="P6-graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 534.8)">
+<title>SCI</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-534.8 1238.09,-534.8 1238.09,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="611.84" y="-496.6" font-family="Microsoft YaHei" font-size="22.00">6.0 接入场景地图 并提供浏览（Android）</text>
+<!-- S04 -->
+<g id="P6-node1" class="node" data-model-node="S04" data-duplicate="true">
+<title>S04</title>
+<polyline fill="none" stroke="#303030" points="0,-404.5 264,-404.5 "/>
+<polyline fill="none" stroke="#303030" points="264,-485.5 0,-485.5 "/>
+<text text-anchor="start" x="118.77" y="-460.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S04</text>
+<text text-anchor="start" x="50.32" y="-439.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">应用会话与授权上下文</text>
+<text text-anchor="start" x="9.79" y="-419.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（按用户／端／组织隔离）</text>
+</g>
+<!-- P6 -->
+<g id="P6-node2" class="node" data-model-node="P6">
+<title>P6</title>
+<ellipse fill="none" stroke="#303030" cx="629.28" cy="-211.5" rx="101.23" ry="101.23"/>
+<text text-anchor="middle" x="629.28" y="-226.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">6.0 接入场景地图</text>
+<text text-anchor="middle" x="629.28" y="-206.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">并提供浏览</text>
+<text text-anchor="middle" x="629.28" y="-186" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（Android）</text>
+</g>
+<!-- S04-&gt;P6 -->
+<g id="P6-flow-F47" data-flow-id="F47" class="edge">
+<title>S04-&gt;P6</title>
+<path fill="none" stroke="#505050" d="M264.03,-406.56C370.51,-374.92 503.16,-335.5 503.16,-335.5 503.16,-335.5 525.74,-313.12 551.71,-287.38"/>
+<polygon fill="#505050" stroke="#505050" points="553.7,-288.86 556.95,-282.19 550.25,-285.38 553.7,-288.86"/>
+<text text-anchor="middle" x="396.08" y="-401" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F47 场景资料接入／查看授权范围</text>
+</g>
+<!-- S06 -->
+<g id="P6-node4" class="node" data-model-node="S06">
+<title>S06</title>
+<polyline fill="none" stroke="#303030" points="983.69,-170.5 1223.69,-170.5 "/>
+<polyline fill="none" stroke="#303030" points="1223.69,-251.5 983.69,-251.5 "/>
+<text text-anchor="start" x="1090.46" y="-226.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S06</text>
+<text text-anchor="start" x="1031.77" y="-205.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">已接入场景地图资料</text>
+<text text-anchor="start" x="993.45" y="-185.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（场景关联、底图与元数据）</text>
+</g>
+<!-- P6-&gt;S06 -->
+<g id="P6-flow-F57" data-flow-id="F57" class="edge">
+<title>P6-&gt;S06</title>
+<path fill="none" stroke="#505050" d="M730.46,-211.5C802.09,-211.5 899.04,-211.5 976.03,-211.5"/>
+<polygon fill="#505050" stroke="#505050" points="976.42,-213.95 983.42,-211.5 976.42,-209.05 976.42,-213.95"/>
+<text text-anchor="middle" x="857.04" y="-216" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F57 已接入场景地图与关联资料</text>
+</g>
+<!-- E01 -->
+<g id="P6-node5" class="node" data-model-node="E01" data-duplicate="true">
+<title>E01</title>
+<polygon fill="none" stroke="#303030" points="231.68,-358.2 32.32,-358.2 32.32,-278.8 231.68,-278.8 231.68,-358.2"/>
+<text text-anchor="middle" x="132" y="-333.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E01</text>
+<text text-anchor="middle" x="132" y="-313.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 现场使用者</text>
+<text text-anchor="middle" x="132" y="-293" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（权限依用例图核对）</text>
+</g>
+<!-- P6-&gt;E01 -->
+<g id="P6-flow-F60" data-flow-id="F60" class="edge">
+<title>P6-&gt;E01</title>
+<path fill="none" stroke="#505050" d="M528.32,-221.52C428.24,-231.55 289,-245.5 289,-245.5 289,-245.5 258.37,-259.83 224.25,-275.8"/>
+<polygon fill="#505050" stroke="#505050" points="223.15,-273.61 217.85,-278.8 225.23,-278.05 223.15,-273.61"/>
+<text text-anchor="middle" x="396.08" y="-268" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F60 场景目录、地图与航线标注</text>
+<text text-anchor="middle" x="396.08" y="-250" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">或不可用／加载失败信息</text>
+</g>
+<!-- E06 -->
+<g id="P6-node3" class="node" data-model-node="E06">
+<title>E06</title>
+<polygon fill="none" stroke="#303030" points="244.63,-207.2 19.37,-207.2 19.37,-127.8 244.63,-127.8 244.63,-207.2"/>
+<text text-anchor="middle" x="132" y="-182.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">E06</text>
+<text text-anchor="middle" x="132" y="-162.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">场景地图资料来源</text>
+<text text-anchor="middle" x="132" y="-142" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（提供方／边界待核对）</text>
+</g>
+<!-- E06-&gt;P6 -->
+<g id="P6-flow-F56" data-flow-id="F56" class="edge">
+<title>E06-&gt;P6</title>
+<path fill="none" stroke="#505050" d="M244.71,-163.2C269.72,-162.24 289,-161.5 289,-161.5 289,-161.5 503.16,-161.5 503.16,-161.5 503.16,-161.5 513.6,-165.67 528.44,-171.6"/>
+<polygon fill="#505050" stroke="#505050" points="527.65,-173.92 535.06,-174.25 529.47,-169.37 527.65,-173.92"/>
+<text text-anchor="middle" x="396.08" y="-184" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F56 场景地图、标识与配套资料</text>
+<text text-anchor="middle" x="396.08" y="-166" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">（来源及获取方式待核对）</text>
+</g>
+<!-- S06-&gt;P6 -->
+<g id="P6-flow-F58" data-flow-id="F58" class="edge">
+<title>S06-&gt;P6</title>
+<path fill="none" stroke="#505050" d="M983.44,-187.49C968.7,-184.52 958.69,-182.5 958.69,-182.5 958.69,-182.5 755.39,-182.5 755.39,-182.5 755.39,-182.5 747.23,-184.39 735.07,-187.21"/>
+<polygon fill="#505050" stroke="#505050" points="734.2,-184.9 727.93,-188.86 735.31,-189.67 734.2,-184.9"/>
+<text text-anchor="middle" x="857.04" y="-187" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F58 场景目录、底图及关联资料</text>
+</g>
+<!-- E01-&gt;P6 -->
+<g id="P6-flow-F59" data-flow-id="F59" class="edge">
+<title>E01-&gt;P6</title>
+<path fill="none" stroke="#505050" d="M231.71,-311.57C341.37,-303.86 503.16,-292.5 503.16,-292.5 503.16,-292.5 518.2,-282.77 537.84,-270.05"/>
+<polygon fill="#505050" stroke="#505050" points="539.24,-272.06 543.78,-266.2 536.58,-267.95 539.24,-272.06"/>
+<text text-anchor="middle" x="396.08" y="-311" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F59 场景选择与地图显示选项</text>
+</g>
+<!-- S03 -->
+<g id="P6-node6" class="node" data-model-node="S03" data-duplicate="true">
+<title>S03</title>
+<polyline fill="none" stroke="#303030" points="9,0.5 255,0.5 "/>
+<polyline fill="none" stroke="#303030" points="255,-80.5 9,-80.5 "/>
+<text text-anchor="start" x="118.77" y="-55.2" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">S03</text>
+<text text-anchor="start" x="53.73" y="-34.8" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">App 已同步航线资料</text>
+<text text-anchor="start" x="18.71" y="-14.4" font-family="Microsoft YaHei" font-size="17.00" fill="#202020">（场景关联、航线及航点）</text>
+</g>
+<!-- S03-&gt;P6 -->
+<g id="P6-flow-F61" data-flow-id="F61" class="edge">
+<title>S03-&gt;P6</title>
+<path fill="none" stroke="#505050" d="M255.23,-70.88C363.05,-97.68 503.16,-132.5 503.16,-132.5 503.16,-132.5 517.91,-141.82 537.29,-154.05"/>
+<polygon fill="#505050" stroke="#505050" points="536.21,-156.27 543.44,-157.93 538.83,-152.12 536.21,-156.27"/>
+<text text-anchor="middle" x="396.08" y="-137" font-family="Microsoft YaHei" font-size="15.00" fill="#303030">F61 已有关联航线与航点资料</text>
+</g>
+</g>
+</svg>
+<text x="1406.5" y="2165" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#505050">Yourdon／DeMarco：圆形加工、矩形外部实体、平行线存储；同编号为同一对象的重复绘制。</text><text x="1406.5" y="2187" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" fill="#505050">草稿：非全量 P0，接口未冻结；部署、归属及访问路径待核对，均以文字注明。</text>
+</svg>
