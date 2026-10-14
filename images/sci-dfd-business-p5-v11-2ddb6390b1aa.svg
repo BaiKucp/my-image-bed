@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1180" viewBox="0 0 1700 1180"><title>2 层 · 5.0 管理身份认证 与应用会话</title><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#54789E"/></marker></defs>
+<text x="850" y="32" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#193653"><tspan x="850" dy="0">2 层 · 5.0 管理身份认证 与应用会话 · v1.1</tspan></text>
+<text x="850" y="65" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="850" dy="0">本阶段建模基线｜与完整 1 层图平衡｜未定边界及业务组成见配套表</tspan></text>
+<g data-flow-id="F41"><title>F41 会话与授权变更：F41</title><path d="M469.9128492007434,437.24767199504424 Q456,530 475.5,660" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F42"><title>F42 当前会话与身份资料：F42</title><path d="M484.5,660 Q504,530 490.0871507992566,437.24767199504424" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F39"><title>F39 身份校验与会话请求：F39</title><path d="M412.1606554170422,374.67154434365307 Q312.44665417731784,381.5380372518329 255,402.86871699266044" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F40"><title>F40 身份结果与授权资料：F40</title><path d="M255,433.11381268145885 Q322.55334582268216,428.4619627481671 416.2526735964294,393.67020017652226" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F35"><title>F35 App 登录／退出信息：F35</title><path d="M202.67138389035517,180 Q311.11007185741306,279.5721714736452 420.0521358096154,337.90243655647356" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F36"><title>F36 App 会话结果：F36</title><path d="M429.9126589925374,324.00806298053806 Q338.88992814258694,240.4278285263548 226.0302942893397,180" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F37"><title>F37 Web 登录／退出信息：F37</title><path d="M783.7820422814083,180 Q652.7341905709484,239.37113868750413 534.2370638343748,328.98365073990675" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F38"><title>F38 Web 会话结果：F38</title><path d="M541.9397831024573,341.93822405440926 Q677.2658094290516,280.62886131249587 810.3301623771198,180" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="A5-01"><title>A5-01 当前会话与各业务授权资料：F43、F44、F45、F46、F47</title><path d="M585,690 Q710,690 872,690" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="A5-K32"><title>A5-K32 同步身份与授权范围：F45</title><path d="M1006.5706685421571,703.868889279616 Q1180,740 1353.4293314578429,776.131110720384" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="A5-K31"><title>A5-K31 成果身份与访问范围：F44</title><path d="M1004.5104642674349,668.496511910855 Q1180,610 1355.4895357325652,551.503488089145" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="A5-K33"><title>A5-K33 查询身份与数据范围：F46</title><path d="M994.4,730.8 Q1180,870 1365.6,1009.2" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="A5-K30"><title>A5-K30 现场身份与操作范围：F43、F47</title><path d="M991.1752152400677,645.2216866649408 Q1180,480 1368.8247847599323,314.77831333505924" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F74"><title>F74 分端会话日志及滚动变更：F74</title><path d="M510.5186650417087,430.76685843510415 Q644.3051393481431,697.1541245098207 829.6238076230435,970" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F75"><title>F75 分端会话日志与元信息：F75</title><path d="M834.9332354044758,970 Q685.6948606518569,672.8458754901793 518.2065501903359,426.25175128432306" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<rect x="359.6532123001859" y="526.311917998761" width="133.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="426.3532123001859" y="543.311917998761" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="426.3532123001859" dy="0">F41 会话与授权变更</tspan></text>
+<rect x="474.35692597290887" y="560.5628398193929" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="554.0569259729089" y="577.5628398193929" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="554.0569259729089" dy="0">F42 当前会话与身份资料</tspan></text>
+<rect x="228.2123600570061" y="335.0059762753969" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="315.0123600570061" y="352.0059762753969" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="315.0123600570061" dy="0">F39 身份校验与会话请求 *</tspan></text>
+<rect x="279.6993915005172" y="459.9872015488931" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="366.4993915005172" y="476.9872015488931" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="366.4993915005172" dy="0">F40 身份结果与授权资料 *</tspan></text>
+<rect x="208.34352962793653" y="287.2509663758792" width="161.8" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="289.24352962793654" y="304.2509663758792" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="289.24352962793654" dy="0">F35 App 登录／退出信息</tspan></text>
+<rect x="283.026895504644" y="217.7212942583428" width="122.80000000000001" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="344.42689550464405" y="234.7212942583428" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="344.42689550464405" dy="0">F36 App 会话结果</tspan></text>
+<rect x="555.5510068850883" y="201.2691182839436" width="161.8" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="636.4510068850883" y="218.2691182839436" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="636.4510068850883" dy="0">F37 Web 登录／退出信息</tspan></text>
+<rect x="625.0108235490859" y="274.1301685422428" width="122.80000000000001" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="686.4108235490859" y="291.1301685422428" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="686.4108235490859" dy="0">F38 Web 会话结果</tspan></text>
+<rect x="605.85" y="658" width="226.79999999999998" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="719.25" y="675" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="719.25" dy="0">A5-01 当前会话与各业务授权资料 *</tspan></text>
+<rect x="1093.525130828128" y="708.3993720249855" width="180.7" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1183.875130828128" y="725.3993720249855" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1183.875130828128" dy="0">A5-K32 同步身份与授权范围</tspan></text>
+<rect x="1076.54167244568" y="578.9750173370402" width="194.89999999999998" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1173.99167244568" y="595.9750173370402" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1173.99167244568" dy="0">A5-K31 成果身份与访问范围 *</tspan></text>
+<rect x="1101.0500000000002" y="841.8" width="180.7" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1191.4" y="858.8" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1191.4" dy="0">A5-K33 查询身份与数据范围</tspan></text>
+<rect x="1070.038412450498" y="452.7010428005693" width="194.89999999999998" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1167.4884124504981" y="469.7010428005693" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1167.4884124504981" dy="0">A5-K30 现场身份与操作范围 *</tspan></text>
+<rect x="484.0938896982664" y="728.8146345026348" width="199.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="583.8938896982664" y="745.8146345026348" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="583.8938896982664" dy="0">F74 分端会话日志及滚动变更 *</tspan></text>
+<rect x="733.922205254655" y="798.3139779558389" width="172.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="820.122205254655" y="815.3139779558389" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="820.122205254655" dy="0">F75 分端会话日志与元信息</tspan></text>
+<rect x="70" y="120" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="170" y="140" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="170" dy="0">E01</tspan><tspan x="170" dy="21">App 现场使用者</tspan></text>
+<circle cx="480" cy="370" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="480" y="353" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="480" dy="0">5.1</tspan><tspan x="480" dy="22">处理认证</tspan><tspan x="480" dy="22">与会话变更</tspan></text>
+<rect x="750" y="120" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="850" y="140" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="850" dy="0">E03</tspan><tspan x="850" dy="21">Web 数据中心使用者</tspan></text>
+<rect x="55" y="398" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="155" y="420" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="155" dy="0">E05</tspan><tspan x="155" dy="21">认证与授权能力</tspan><tspan x="155" dy="21">〔边界待核对〕</tspan></text>
+<rect x="375" y="660" width="210" height="60" fill="white"/><path d="M375,660 h210 M375,720 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="480" y="684" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="480" dy="0">S04</tspan><tspan x="480" dy="21">会话与授权上下文</tspan></text>
+<rect x="745" y="970" width="210" height="60" fill="white"/><path d="M745,970 h210 M745,1030 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="850" y="994" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="850" dy="0">S07</tspan><tspan x="850" dy="21">分端操作／异常日志</tspan></text>
+<circle cx="940" cy="690" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="940" y="673" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="940" dy="0">5.2</tspan><tspan x="940" dy="22">提供身份</tspan><tspan x="940" dy="22">与授权上下文</tspan></text>
+<circle cx="1420" cy="270" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1420" y="264" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1420" dy="0">1.0</tspan><tspan x="1420" dy="22">管理现场作业</tspan></text>
+<circle cx="1420" cy="530" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1420" y="513" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1420" dy="0">2.0</tspan><tspan x="1420" dy="22">管理空间成果</tspan><tspan x="1420" dy="22">与三维交互</tspan></text>
+<circle cx="1420" cy="790" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1420" y="773" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1420" dy="0">3.0</tspan><tspan x="1420" dy="22">管理成果同步</tspan><tspan x="1420" dy="22">与完整性校验</tspan></text>
+<circle cx="1420" cy="1050" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1420" y="1033" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1420" dy="0">4.0</tspan><tspan x="1420" dy="22">提供空间数据</tspan><tspan x="1420" dy="22">查询与调阅</tspan></text>
+<text x="850" y="1133" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="850" dy="0">圆：加工　矩形：外部实体　平行线：逻辑存储　*：含待确认项（详见定义表）</tspan></text>
+<text x="850" y="1160" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#193653"><tspan x="850" dy="0">交叉线不表示连接；箭头表示数据关系，不表示先后顺序。</tspan></text>
+</svg>
