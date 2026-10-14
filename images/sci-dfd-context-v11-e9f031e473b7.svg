@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800"><title>0 层 · SCI 应用侧系统上下文</title><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#54789E"/></marker></defs>
+<text x="750" y="32" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#193653"><tspan x="750" dy="0">0 层 · SCI 应用侧系统上下文 · v1.1</tspan></text>
+<text x="750" y="65" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="750" dy="0">本阶段建模基线｜与完整 1 层图平衡｜未定边界及业务组成见配套表</tspan></text>
+<g data-flow-id="B07"><title>B07 任务成果获取请求：F12</title><path d="M817.693972667084,416.444072047089 Q1054.6066102342568,438.99677571033675 1260,426.22042792900936" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B08"><title>B08 任务成果包与清单：F13</title><path d="M1260,410.48058225393174 Q1055.3933897657432,391.00322428966325 817.868821899865,405.77826884745116" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B05"><title>B05 Web 登录、同步及查询下载请求：F10、F14、F23、F37</title><path d="M230,468.0431094653453 Q442.31178067664456,463.8884003253272 683.0195168781064,421.73093690877766" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B06"><title>B06 Web 会话、任务与文件结果：F11、F15、F24、F38</title><path d="M682.0130162916748,411.33043084898543 Q437.68821932335544,416.1115996746728 230,452.48603718275774" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B03"><title>B03 连接／巡检与重处理请求：F03、F65</title><path d="M816.0154055657532,393.69152894998695 Q1062.4772160601194,332.80550898336395 1287.3185413904716,240" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B04"><title>B04 设备反馈、实时媒体与成果：F04、F05、F62</title><path d="M1260,234.7040382623558 Q1047.5227839398806,287.19449101663605 812.8560619378545,384.05553088489575" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B01"><title>B01 App 登录及现场操作：F01、F06、F08、F27、F31、F35、F48、F51、F59、F64</title><path d="M214.23458723767726,270 Q433.65359971985316,348.14569513935913 683.2637274833655,396.9512479299554" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B02"><title>B02 App 会话与业务结果：F02、F07、F09、F28、F32、F36、F49、F52、F60、F63</title><path d="M685.9413941059062,387.1856402477481 Q446.34640028014684,301.85430486064087 230,259.5527133565814" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B09"><title>B09 身份及会话处理请求：F39</title><path d="M811.2913466265406,439.4511600570376 Q1046.2130165872509,552.3335828407372 1260,618.8749303438141" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B10"><title>B10 身份结果及授权资料：F40</title><path d="M1272.5930335739163,608 Q1063.7869834127491,507.6664171592628 814.9276895013908,430.20878858346003" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="B11"><title>B11 场景地图及配套资料：F56</title><path d="M230,637.61711321449 Q460.56825845233175,586.0092809617827 691.899653369854,445.33199288827177" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<rect x="966.1153647193528" y="436.1619602865429" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1046.4153647193527" y="453.1619602865429" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1046.4153647193527" dy="0">B07 任务成果获取请求 *</tspan></text>
+<rect x="967.1753339223847" y="367.5688774828275" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1047.4753339223846" y="384.5688774828275" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1047.4753339223846" dy="0">B08 任务成果包与清单 *</tspan></text>
+<rect x="337.8409292601925" y="460.2993620137451" width="226.8" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="451.2409292601925" y="477.2993620137451" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="451.2409292601925" dy="0">B05 Web 登录、同步及查询下载请求</tspan></text>
+<rect x="337.51720403225283" y="392.09826658772147" width="215" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="445.01720403225283" y="409.09826658772147" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="445.01720403225283" dy="0">B06 Web 会话、任务与文件结果 *</tspan></text>
+<rect x="963.191557483377" y="329.87999800767517" width="199.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1062.991557483377" y="346.87999800767517" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1062.991557483377" dy="0">B03 连接／巡检与重处理请求 *</tspan></text>
+<rect x="929.7559447401429" y="267.23277651663443" width="212.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1036.0559447401429" y="284.23277651663443" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1036.0559447401429" dy="0">B04 设备反馈、实时媒体与成果 *</tspan></text>
+<rect x="348.17714498507104" y="346.13433487082773" width="176" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="436.17714498507104" y="363.13433487082773" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="436.17714498507104" dy="0">B01 App 登录及现场操作 *</tspan></text>
+<rect x="369.18278222166623" y="281.2880655127435" width="176" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="457.18278222166623" y="298.2880655127435" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="457.18278222166623" dy="0">B02 App 会话与业务结果 *</tspan></text>
+<rect x="947.1729830818344" y="545.4290671028319" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1033.9729830818344" y="562.4290671028319" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1033.9729830818344" dy="0">B09 身份及会话处理请求 *</tspan></text>
+<rect x="973.9300343436275" y="482.7046526432461" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1060.7300343436275" y="499.7046526432461" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1060.7300343436275" dy="0">B10 身份结果及授权资料 *</tspan></text>
+<rect x="366.85364419418755" y="533.120529037966" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="453.65364419418756" y="550.120529037966" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="453.65364419418756" dy="0">B11 场景地图及配套资料 *</tspan></text>
+<rect x="30" y="210" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="130" y="230" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="130" dy="0">E01</tspan><tspan x="130" dy="21">App 现场使用者</tspan></text>
+<circle cx="750" cy="410" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="750" y="404" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="750" dy="0">0</tspan><tspan x="750" dy="22">SCI 应用侧</tspan></text>
+<rect x="1260" y="180" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1360" y="200" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1360" dy="0">E02</tspan><tspan x="1360" dy="21">机载无人机系统</tspan></text>
+<rect x="30" y="440" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="130" y="460" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="130" dy="0">E03</tspan><tspan x="130" dy="21">Web 数据中心使用者</tspan></text>
+<rect x="1260" y="378" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1360" y="400" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1360" dy="0">E04</tspan><tspan x="1360" dy="21">机载／成果暂存来源</tspan><tspan x="1360" dy="21">〔边界待核对〕</tspan></text>
+<rect x="1260" y="608" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1360" y="630" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1360" dy="0">E05</tspan><tspan x="1360" dy="21">认证与授权能力</tspan><tspan x="1360" dy="21">〔边界待核对〕</tspan></text>
+<rect x="30" y="618" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="130" y="640" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="130" dy="0">E06</tspan><tspan x="130" dy="21">场景地图资料来源</tspan><tspan x="130" dy="21">〔边界待核对〕</tspan></text>
+<text x="750" y="753" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="750" dy="0">圆：加工　矩形：外部实体　平行线：逻辑存储　*：含待确认项（详见定义表）</tspan></text>
+<text x="750" y="780" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#193653"><tspan x="750" dy="0">交叉线不表示连接；箭头表示数据关系，不表示先后顺序。</tspan></text>
+</svg>
