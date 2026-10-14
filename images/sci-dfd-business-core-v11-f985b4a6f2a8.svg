@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1650" height="1080" viewBox="0 0 1650 1080"><title>1 层 · 核心业务数据流视图</title><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#54789E"/></marker></defs>
+<text x="825" y="32" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#193653"><tspan x="825" dy="0">1 层 · 核心业务数据流视图 · v1.1</tspan></text>
+<text x="825" y="65" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="825" dy="0">25 条单向流｜认证、授权、参数存取与日志支撑未展开，见 48 条完整图</tspan></text>
+<g data-flow-id="K19"><title>K19 待同步任务与成果：F19</title><path d="M818.6785460146867,560 Q771.5543995824897,684.8712749086696 764.7464956687098,782.1658583096468" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K20"><title>K20 取码与清单摘要记录：F20</title><path d="M784.0091912397821,786.3795729658189 Q818.4456004175103,695.1287250913304 827.9008377416892,560" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K37"><title>K37 场景地图及配套资料：F56</title><path d="M210.48932913303898,187 Q294.3470941365529,245.22557764529532 402.03007105700596,242.02206812059768" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K06"><title>K06 成果查看、处置与记录选择：F06、F31、F64</title><path d="M245,516.6198082932792 Q309.65454053300704,533.8307230360663 412.017187575464,531.5287952283912" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K07"><title>K07 成果、处置及记录结果：F07、F32</title><path d="M414.28836448633064,512.5076885998828 Q315.34545946699296,486.1692769639337 245,487.7512033205625" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K17"><title>K17 成果记录与清理变更：F17、F34</title><path d="M547.3694039023712,539.2392325351823 Q655,554 725,544.4" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K18"><title>K18 本机成果与记录索引：F18、F33</title><path d="M725,515.6 Q655,506 547.3694039023712,520.7607674648177" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K12"><title>K12 任务成果获取请求：F12</title><path d="M692.4025506376457,857.3881553654452 Q584.179144999128,869.216579996512 520,894.9319267962826" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K13"><title>K13 成果包与文件清单：F13</title><path d="M520,924.0703636969479 Q595.820855000872,915.783420003488 696.8784127435956,875.2916037892445" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K03"><title>K03 连接、航线与巡检请求：F03</title><path d="M537.4581156830192,231.43246660371864 Q660.9685659365296,215.74599364753632 764.0813119586292,175" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K04"><title>K04 设备反馈、巡检状态与媒体：F04、F62</title><path d="M740,157.700522849674 Q649.0314340634704,169.25400635246368 533.2414195012826,215.00954463274442" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K01"><title>K01 现场作业与场景选择：F01、F27、F48、F51、F59</title><path d="M195.14286619994104,460 Q322.1330582603926,384.0229757385104 421.2877431327735,287.44592744273575" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K02"><title>K02 现场状态、监控与操作结果：F02、F28、F49、F52、F60、F63</title><path d="M411.64651725297426,274.9123337989967 Q292.8669417396074,345.9770242614896 175.8006984957892,460" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K22"><title>K22 任务资料与可用文件：F22、F26</title><path d="M1175.2639277818384,640 Q1257.471900261657,478.4269625981214 1293.3821469269417,335.9382056113316" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K23"><title>K23 任务与附件读取选择：F25</title><path d="M1279.1636719133464,330.6062774812334 Q1212.528099738343,461.5730374018786 1167.5606484521331,640" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K21"><title>K21 接入成果与校验记录：F21</title><path d="M822.0106623519073,822.0952019416418 Q960,760 1093.3333333333333,700" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K14"><title>K14 检索、详情与下载选择：F14、F23</title><path d="M1462.0969245685785,660 Q1412.4277056382953,471.4561121377923 1340.818955678779,330.6151133865924" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K15"><title>K15 任务资料与文件结果：F15、F24</title><path d="M1327.322637241575,335.75656802933685 Q1367.5722943617047,488.5438878622077 1454.7468953086561,660" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K16"><title>K16 任务关联与执行记录：F16</title><path d="M522.9552658176632,282.6584085753398 Q650,385 792.7586206896551,500" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K05"><title>K05 巡检成果与处理状态：F05</title><path d="M806.3507596907971,175 Q642.4698226537786,321.1081458580787 521.7477024374311,476.32384755596104" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K38"><title>K38 任务重处理请求：F65</title><path d="M530.7566939605523,484.7478396295289 Q677.5301773462214,353.8918541419213 816.6668992448988,175" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K08"><title>K08 任务取码请求：F08</title><path d="M189.1491073949755,520 Q440.3756991623455,690.7123472643265 699.1390548074002,819.6693991114031" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K09"><title>K09 同步码与清单摘要：F09</title><path d="M703.7563283178638,811.781556864361 Q464.6243008376545,649.2876527356735 205.19756622970297,520" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K10"><title>K10 录码与同步请求：F10</title><path d="M1370,705.7066001709596 Q1109.723860886083,746.5871326819931 825.2088774176528,830.7178241391299" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="K11"><title>K11 校验结果与缺件清单：F11</title><path d="M827.1764360957836,839.4488657733351 Q1120.276139113917,793.4128673180069 1370,719.5698632217983" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<rect x="649.8194591683183" y="652.1552893034207" width="146.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="723.0194591683183" y="669.1552893034207" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="723.0194591683183" dy="0">K19 待同步任务与成果</tspan></text>
+<rect x="791.1143084978987" y="683.9810685154459" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="870.8143084978988" y="700.9810685154459" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="870.8143084978988" dy="0">K20 取码与清单摘要记录</tspan></text>
+<rect x="218.91076459588754" y="198.65401539351322" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="305.71076459588755" y="215.65401539351322" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="305.71076459588755" dy="0">K37 场景地图及配套资料 *</tspan></text>
+<rect x="186.32476600914305" y="532.1431144710177" width="212.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="292.62476600914306" y="549.1431144710177" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="292.62476600914306" dy="0">K06 成果查看、处置与记录选择 *</tspan></text>
+<rect x="243.40846952256163" y="420.57255387191253" width="172.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="329.6084695225616" y="437.57255387191253" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="329.6084695225616" dy="0">K07 成果、处置及记录结果</tspan></text>
+<rect x="558.7923509755929" y="572.9098081337955" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="645.5923509755928" y="589.9098081337955" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="645.5923509755928" dy="0">K17 成果记录与清理变更 *</tspan></text>
+<rect x="565.8923509755928" y="461.09019186620435" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="645.5923509755928" y="478.09019186620435" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="645.5923509755928" dy="0">K18 本机成果与记录索引</tspan></text>
+<rect x="510.2820332832851" y="841.2556030359267" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="590.5820332832851" y="858.2556030359267" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="590.5820332832851" dy="0">K12 任务成果获取请求 *</tspan></text>
+<rect x="531.0463844377157" y="931.5976168788147" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="611.3463844377156" y="948.5976168788147" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="611.3463844377156" dy="0">K13 成果包与文件清单 *</tspan></text>
+<rect x="574.3942545784294" y="214.8841917789974" width="172.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="660.5942545784294" y="231.8841917789974" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="660.5942545784294" dy="0">K03 连接、航线与巡检请求</tspan></text>
+<rect x="495.5035728386658" y="137.3642629381914" width="212.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="601.8035728386658" y="154.3642629381914" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="601.8035728386658" dy="0">K04 设备反馈、巡检状态与媒体 *</tspan></text>
+<rect x="291.93862300385655" y="369.6460698915529" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="371.63862300385654" y="386.6460698915529" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="371.63862300385654" dy="0">K01 现场作业与场景选择</tspan></text>
+<rect x="157.51262915601302" y="296.15915623421796" width="198.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="256.712629156013" y="313.15915623421796" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="256.712629156013" dy="0">K02 现场状态、监控与操作结果</tspan></text>
+<rect x="1215.2772194621664" y="491.2654391971971" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1302.0772194621663" y="508.2654391971971" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1302.0772194621663" dy="0">K22 任务资料与可用文件 *</tspan></text>
+<rect x="1074.9653793063987" y="439.37068157594416" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1161.7653793063987" y="456.37068157594416" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1161.7653793063987" dy="0">K23 任务与附件读取选择 *</tspan></text>
+<rect x="864.2390700520631" y="730.1972918870835" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="951.039070052063" y="747.1972918870835" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="951.039070052063" dy="0">K21 接入成果与校验记录 *</tspan></text>
+<rect x="1376.8120869767251" y="449.022114760025" width="172.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1463.0120869767252" y="466.022114760025" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1463.0120869767252" dy="0">K14 检索、详情与下载选择</tspan></text>
+<rect x="1256.6037161688378" y="550.6273682164175" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1343.4037161688377" y="567.6273682164175" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1343.4037161688377" dy="0">K15 任务资料与文件结果 *</tspan></text>
+<rect x="586.1477328464098" y="360.3682778712526" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="665.8477328464098" y="377.3682778712526" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="665.8477328464098" dy="0">K16 任务关联与执行记录</tspan></text>
+<rect x="416.9076758965628" y="320.34041302773306" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="496.6076758965628" y="337.34041302773306" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="496.6076758965628" dy="0">K05 巡检成果与处理状态</tspan></text>
+<rect x="586.5187431798814" y="400.2180249360924" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="660.3187431798814" y="417.2180249360924" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="660.3187431798814" dy="0">K38 任务重处理请求 *</tspan></text>
+<rect x="372.4614853019568" y="683.6707983276058" width="120.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="432.6614853019568" y="700.6707983276058" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="432.6614853019568" dy="0">K08 任务取码请求</tspan></text>
+<rect x="398.44743371533855" y="611.7946657487436" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="478.74743371533856" y="628.7946657487436" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="478.74743371533856" dy="0">K09 同步码与清单摘要 *</tspan></text>
+<rect x="1113.960500721646" y="708.0859307728252" width="133.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1180.660500721646" y="725.0859307728252" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1180.660500721646" dy="0">K10 录码与同步请求</tspan></text>
+<rect x="1026.8091220460888" y="791.9963025345422" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1113.6091220460887" y="808.9963025345422" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1113.6091220460887" dy="0">K11 校验结果与缺件清单 *</tspan></text>
+<rect x="45" y="460" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="145" y="480" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="145" dy="0">E01</tspan><tspan x="145" dy="21">App 现场使用者</tspan></text>
+<circle cx="470" cy="240" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="470" y="234" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="470" dy="0">1.0</tspan><tspan x="470" dy="22">管理现场作业</tspan></text>
+<rect x="740" y="115" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="840" y="135" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="840" dy="0">E02</tspan><tspan x="840" dy="21">机载无人机系统</tspan></text>
+<circle cx="480" cy="530" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="480" y="513" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="480" dy="0">2.0</tspan><tspan x="480" dy="22">管理空间成果</tspan><tspan x="480" dy="22">与三维交互</tspan></text>
+<circle cx="760" cy="850" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="760" y="833" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="760" dy="0">3.0</tspan><tspan x="760" dy="22">管理成果同步</tspan><tspan x="760" dy="22">与完整性校验</tspan></text>
+<rect x="1370" y="660" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1470" y="680" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1470" dy="0">E03</tspan><tspan x="1470" dy="21">Web 数据中心使用者</tspan></text>
+<rect x="320" y="893" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="420" y="915" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="420" dy="0">E04</tspan><tspan x="420" dy="21">机载／成果暂存来源</tspan><tspan x="420" dy="21">〔边界待核对〕</tspan></text>
+<circle cx="1310" cy="270" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1310" y="253" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1310" dy="0">4.0</tspan><tspan x="1310" dy="22">提供空间数据</tspan><tspan x="1310" dy="22">查询与调阅</tspan></text>
+<rect x="725" y="500" width="210" height="60" fill="white"/><path d="M725,500 h210 M725,560 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="830" y="524" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="830" dy="0">S01</tspan><tspan x="830" dy="21">本机任务与成果记录</tspan></text>
+<rect x="1055" y="640" width="210" height="60" fill="white"/><path d="M1055,640 h210 M1055,700 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="1160" y="664" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1160" dy="0">S02</tspan><tspan x="1160" dy="21">已接入任务与附件</tspan></text>
+<rect x="50" y="103" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="150" y="125" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="150" dy="0">E06</tspan><tspan x="150" dy="21">场景地图资料来源</tspan><tspan x="150" dy="21">〔边界待核对〕</tspan></text>
+<text x="825" y="1033" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="825" dy="0">圆：加工　矩形：外部实体　平行线：逻辑存储　*：含待确认项（详见定义表）</tspan></text>
+<text x="825" y="1060" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#193653"><tspan x="825" dy="0">交叉线不表示连接；箭头表示数据关系，不表示先后顺序。</tspan></text>
+</svg>
