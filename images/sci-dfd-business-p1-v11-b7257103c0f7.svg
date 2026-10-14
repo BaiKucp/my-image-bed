@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1850" height="1350" viewBox="0 0 1850 1350"><title>2 层 · 1.0 管理现场作业</title><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#54789E"/></marker></defs>
+<text x="925" y="32" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#193653"><tspan x="925" dy="0">2 层 · 1.0 管理现场作业 · v1.1</tspan></text>
+<text x="925" y="65" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="925" dy="0">本阶段建模基线｜与完整 1 层图平衡｜未定边界及业务组成见配套表</tspan></text>
+<g data-flow-id="I1-11"><title>I1-11 地图接入与加载异常：</title><path d="M1267.876036838315,687.9668211739214 Q1265,780 1262.123963161685,872.0331788260786" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F43@P1.1"><title>F43@P1.1 现场身份与操作范围：F43</title><path d="M210.8210489879943,190.41052449399714 Q300,235 389.1789510120057,279.5894755060029" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F53@P1.2"><title>F53@P1.2 当前参数与适用对象：F53</title><path d="M1537.3272118522395,360 Q1445.2063309876478,326.5715105555851 1327.7294215071495,316.06015365373366" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F54@P1.2"><title>F54@P1.2 经校验的参数更新：F54</title><path d="M1323.921541030411,333.1956157990576 Q1434.7936690123522,373.4284894444149 1515,380.60502630197624" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F56"><title>F56 场景地图及配套资料：F56</title><path d="M1540,597.3158968804715 Q1456.4859438741353,570.0200766569931 1335.6819729577817,602.3966358790932" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-16"><title>R1-16 航线保存与删除变更：F29、F50</title><path d="M1326.3344625341863,295.04208970809606 Q1448.1514671306613,267.5732935926007 1561.1298151002081,210" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F30@P1.2"><title>F30@P1.2 已保存航线与场景：F30</title><path d="M1515,203.67669112929798 Q1431.8485328693387,222.4267064073993 1320.5867189824232,279.1252614109061" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-14"><title>R1-14 航线与参数操作：F27、F48、F51</title><path d="M939.1478903439786,170 Q1064.979995882783,246.80824425511952 1195.3112073006528,289.03908162553734" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-15"><title>R1-15 航线、参数与操作结果：F28、F49、F52</title><path d="M1201.9585455787883,274.5713453731248 Q1085.020004117217,203.19175574488048 982.5848641891945,170" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F16@P1.4"><title>F16@P1.4 任务关联与执行记录：F16</title><path d="M1321.1479860347142,969.7476688817528 Q1445,1030 1568.3333333333333,1090" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F57"><title>F57 场景地图与关联资料：F57</title><path d="M1321.4042189451786,664.515236432441 Q1431.4273194667633,759.7934924443034 1563.544780134636,830" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F58"><title>F58 已存场景地图资料：F58</title><path d="M1585.35733173751,830 Q1458.5726805332367,720.2065075556966 1330.0482705729717,651.9093278085763" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F03@P1.3"><title>F03@P1.3 自检与巡检请求：F03</title><path d="M407.9149211868118,886.58795883616 Q314.6079694095059,768.16796558097 181.82647465271782,660" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F04@P1.3"><title>F04@P1.3 机载自检结果：F04</title><path d="M168.63797257855774,660 Q280.3920305904941,801.83203441903 397.2792842472884,897.0520532444008" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F03@P1.1"><title>F03@P1.1 发现与连接请求：F03</title><path d="M398.0449573471183,353.8711014557105 Q280.1271464071146,453.4414989192811 167.96017675388012,600" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F04@P1.1"><title>F04@P1.1 发现与连接反馈：F04</title><path d="M180.5279723523688,600 Q314.8728535928854,486.5585010807189 408.67181538040717,363.99982551868897" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F66@P1.4"><title>F66@P1.4 App 作业日志及滚动变更：F66</title><path d="M1198.3797729540752,968.7566969384295 Q1057.5727356942614,1034.4679981035624 919.3057137523759,1140" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F67@P1.4"><title>F67@P1.4 App 作业日志与元信息：F67</title><path d="M944.2843931393011,1140 Q1082.4272643057386,1075.5320018964376 1205.9456594042595,981.2568571604731" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F01@P1.1"><title>F01@P1.1 设备发现与选择：F01</title><path d="M790,167.38375641655279 Q661.3504172991481,202.61284477426568 510.62335967437025,279.1972685985165" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F02@P1.1"><title>F02@P1.1 发现与连接结果：F02</title><path d="M515.5854200271043,292.0402483350047 Q678.6495827008519,247.38715522573432 830.9565091314105,170" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F61"><title>F61 关联航线与航点：F61</title><path d="M1596.1363636363637,210 Q1445,400 1312.3316024758647,566.7831283160559" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F59"><title>F59 场景与地图显示选择：F59</title><path d="M910.1473128838111,170 Q1061.1829002129177,394.8968706647735 1223.7539761849955,570.1471637586984" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F60"><title>F60 地图与航线标注结果：F60</title><path d="M1232.0886963374162,563.548843638032 Q1098.8170997870823,365.1031293352265 917.8295242367923,170" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-23"><title>R1-23 当前连接与巡检授权：</title><path d="M450,378 Q450,625 450,872" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-10"><title>I1-10 航线与参数操作留痕：</title><path d="M1207.6482042503367,353.3968833187999 Q880,625 1207.6482042503367,896.6031166812002" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-02"><title>I1-02 连接及航线操作范围：</title><path d="M518,310 Q855,310 1192,310" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-06"><title>I1-06 任务关联与操作记录：</title><path d="M517.880917108861,944.0225728657102 Q855,964 1192.119082891139,944.0225728657102" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-07"><title>I1-07 巡检执行状态：</title><path d="M1192.119082891139,935.9774271342898 Q855,916 517.880917108861,935.9774271342898" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-05"><title>R1-05 设备巡检状态与媒体呈现：F02、F63</title><path d="M1198.0784370390124,911.8980420527599 Q730.1017245038603,699.5154524169645 881.4266027074631,170" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F01@P1.3"><title>F01@P1.3 场景与航线选择、巡检操作与确认：F01</title><path d="M871.3845431014838,170 Q648.9708181917605,528.4339500054682 479.5971635577416,878.7790239432898" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F02@P1.3"><title>F02@P1.3 自检结果：F02</title><path d="M485.85339891044646,882.2199533872774 Q691.0291818082395,551.5660499945318 875.4965574885681,170" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-25"><title>R1-25 查看授权与连接留痕：</title><path d="M501.66663697016577,354.210390455108 Q840.2654252756419,643.9444532170319 1204.4319878431622,900.8056633563275" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-05"><title>I1-05 可选航线及场景关联：</title><path d="M1192.0188843908377,311.6024732552253 Q621.7025668643303,325.046157396996 468.28697945885824,874.5050659800982" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I1-08"><title>I1-08 当前巡检任务状态：</title><path d="M1208.3333630298343,895.7896095448921 Q869.7345747243581,606.0555467829681 505.56801215683777,349.19433664367256" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="R1-12"><title>R1-12 遥测、执行状态与实时媒体：F04、F62</title><path d="M245,657.8026905829596 Q702.5,785 1194.4849929126196,921.7850652940916" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F03@P1.2"><title>F03@P1.2 航线同步请求：F03</title><path d="M1193.9188822054482,326.0401331360609 Q695.8793718471072,446.93124877976436 235.27417866379403,600" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F04@P1.2"><title>F04@P1.2 航线与同步反馈：F04</title><path d="M245,605.7266013781273 Q709.1206281528928,493.06875122023564 1195.4699636125497,331.44468241393076" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F47"><title>F47 场景查看授权：F47</title><path d="M217.01025903822358,148.44036403556865 Q854.3691645112085,38.492469016187954 1230.4589023006074,564.6781996611905" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<rect x="1197.1907294456546" y="767.5934602951767" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1283.9907294456546" y="784.5934602951767" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1283.9907294456546" dy="0">I1-11 地图接入与加载异常</tspan></text>
+<rect x="230.19411662899842" y="188.0117667420032" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="316.9941166289984" y="205.0117667420032" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="316.9941166289984" dy="0">F43 现场身份与操作范围 *</tspan></text>
+<rect x="1363.2890025322256" y="300.75323954773086" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1442.9890025322256" y="317.75323954773086" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1442.9890025322256" dy="0">F53 当前参数与适用对象</tspan></text>
+<rect x="1342.7055410652245" y="370.71195939096106" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1423.0055410652244" y="387.71195939096106" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1423.0055410652244" dy="0">F54 经校验的参数更新 *</tspan></text>
+<rect x="1360.8767912421233" y="552.9451070908035" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1447.6767912421233" y="569.9451070908035" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1447.6767912421233" dy="0">F56 场景地图及配套资料 *</tspan></text>
+<rect x="1358.4950477857028" y="264.9176933174666" width="187.79999999999998" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1452.395047785703" y="281.9176933174666" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1452.395047785703" dy="0">R1-16 航线保存与删除变更 *</tspan></text>
+<rect x="1345.1677013685014" y="201.04331724460846" width="146.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1418.3677013685015" y="218.04331724460846" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1418.3677013685015" dy="0">F30 已保存航线与场景</tspan></text>
+<rect x="984.3722690930858" y="242.42875256924702" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1058.1722690930858" y="259.428752569247" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1058.1722690930858" dy="0">R1-14 航线与参数操作</tspan></text>
+<rect x="1011.2108610195312" y="165.20899414511555" width="186.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1104.5108610195311" y="182.20899414511555" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1104.5108610195311" dy="0">R1-15 航线、参数与操作结果</tspan></text>
+<rect x="1373.4821785001486" y="999.8514505342682" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1453.1821785001487" y="1016.8514505342682" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1453.1821785001487" dy="0">F16 任务关联与执行记录</tspan></text>
+<rect x="1269.6936726947984" y="723.5638928225293" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1349.3936726947984" y="740.5638928225293" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1349.3936726947984" dy="0">F57 场景地图与关联资料</tspan></text>
+<rect x="1406.427818355197" y="686.2408893598453" width="146.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1479.627818355197" y="703.2408893598453" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1479.627818355197" dy="0">F58 已存场景地图资料</tspan></text>
+<rect x="258.02695189635307" y="731.0802513360609" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="331.8269518963531" y="748.0802513360609" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="331.8269518963531" dy="0">F03.3 自检与巡检请求</tspan></text>
+<rect x="187.2877112699909" y="803.8297516840794" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="254.5877112699909" y="820.8297516840794" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="254.5877112699909" dy="0">F04.3 机载自检结果</tspan></text>
+<rect x="180.2578385400717" y="425.97089811242995" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="254.0578385400717" y="442.97089811242995" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="254.0578385400717" dy="0">F03.1 发现与连接请求</tspan></text>
+<rect x="258.4433919183719" y="497.4968336311699" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="332.2433919183719" y="514.4968336311699" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="332.2433919183719" dy="0">F04.1 发现与连接反馈</tspan></text>
+<rect x="937.531237706324" y="998.9141702836959" width="202" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1038.531237706324" y="1015.9141702836959" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1038.531237706324" dy="0">F66 App 作业日志及滚动变更 *</tspan></text>
+<rect x="1011.0476471061789" y="1087.58921824103" width="174.8" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1098.447647106179" y="1104.58921824103" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1098.447647106179" dy="0">F67 App 作业日志与元信息</tspan></text>
+<rect x="575.1834622633255" y="182.22851408719384" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="648.9834622633255" y="199.22851408719384" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="648.9834622633255" dy="0">F01.1 设备发现与选择</tspan></text>
+<rect x="609.0078599448957" y="243.92680425032466" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="682.8078599448957" y="260.92680425032466" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="682.8078599448957" dy="0">F02.1 发现与连接结果</tspan></text>
+<rect x="1355.6312266208447" y="446.01881946414284" width="133.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1422.3312266208447" y="463.01881946414284" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1422.3312266208447" dy="0">F61 关联航线与航点</tspan></text>
+<rect x="937.3240229059548" y="406.72740293399505" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1017.0240229059549" y="423.72740293399505" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1017.0240229059549" dy="0">F59 场景与地图显示选择</tspan></text>
+<rect x="1138.4824899393773" y="426.1523337952948" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1218.1824899393773" y="443.1523337952948" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1218.1824899393773" dy="0">F60 地图与航线标注结果</tspan></text>
+<rect x="382.2" y="612" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="469" y="629" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="469" dy="0">R1-23 当前连接与巡检授权</tspan></text>
+<rect x="976.0241021251684" y="612" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1062.8241021251683" y="629" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1062.8241021251683" dy="0">I1-10 航线与参数操作留痕</tspan></text>
+<rect x="768.2" y="278" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="855" y="295" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="855" dy="0">I1-02 连接及航线操作范围</tspan></text>
+<rect x="768.2" y="960.0112864328551" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="855" y="977.0112864328551" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="855" dy="0">I1-06 任务关联与操作记录</tspan></text>
+<rect x="787.7" y="893.9887135671449" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="855" y="910.9887135671449" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="855" dy="0">I1-07 巡检执行状态</tspan></text>
+<rect x="767.8822084137422" y="615.2080093425205" width="199.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="867.6822084137422" y="632.2080093425205" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="867.6822084137422" dy="0">R1-05 设备巡检状态与媒体呈现</tspan></text>
+<rect x="440.04708580625544" y="460.4006685136194" width="251.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="565.8470858062554" y="477.4006685136194" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="565.8470858062554" dy="0">F01.2 场景与航线选择、巡检操作与确认</tspan></text>
+<rect x="664.848284533586" y="544.1509258354272" width="108.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="719.148284533586" y="561.1509258354272" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="719.148284533586" dy="0">F02.2 自检结果</tspan></text>
+<rect x="736.527625527586" y="652.7216243216752" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="823.327625527586" y="669.7216243216752" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="823.327625527586" dy="0">R1-25 查看授权与连接留痕</tspan></text>
+<rect x="615.7980060810222" y="416.05457924702847" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="702.5980060810222" y="433.05457924702847" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="702.5980060810222" dy="0">I1-05 可选航线及场景关联</tspan></text>
+<rect x="806.3723744724141" y="571.2783756783249" width="160.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="886.672374472414" y="588.2783756783249" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="886.672374472414" dy="0">I1-08 当前巡检任务状态</tspan></text>
+<rect x="602.8107152783351" y="756.0912752242594" width="226.79999999999998" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="716.2107152783351" y="773.0912752242594" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="716.2107152783351" dy="0">R1-12 遥测、执行状态与实时媒体 *</tspan></text>
+<rect x="777.3355981875104" y="383.34291306209195" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="844.6355981875104" y="400.34291306209195" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="844.6355981875104" dy="0">F03.2 航线同步请求</tspan></text>
+<rect x="651.3604662216641" y="504.3527193235054" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="725.160466221664" y="521.3527193235054" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="725.160466221664" dy="0">F04.2 航线与同步反馈</tspan></text>
+<rect x="578.1744780536342" y="118.82783011669852" width="120.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="638.3744780536342" y="135.82783011669852" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="638.3744780536342" dy="0">F47 场景查看授权</tspan></text>
+<rect x="790" y="110" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="890" y="130" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="890" dy="0">E01</tspan><tspan x="890" dy="21">App 现场使用者</tspan></text>
+<circle cx="450" cy="310" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="450" y="293" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="450" dy="0">1.1</tspan><tspan x="450" dy="22">处理设备发现</tspan><tspan x="450" dy="22">与连接</tspan></text>
+<circle cx="450" cy="940" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="450" y="923" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="450" dy="0">1.3</tspan><tspan x="450" dy="22">处理自检</tspan><tspan x="450" dy="22">与巡检操作</tspan></text>
+<circle cx="1260" cy="940" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1260" y="923" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1260" dy="0">1.4</tspan><tspan x="1260" dy="22">呈现监控</tspan><tspan x="1260" dy="22">与整理记录</tspan></text>
+<rect x="45" y="600" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="145" y="620" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="145" dy="0">E02</tspan><tspan x="145" dy="21">机载无人机系统</tspan></text>
+<circle cx="1260" cy="310" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1260" y="293" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1260" dy="0">1.2</tspan><tspan x="1260" dy="22">管理航线</tspan><tspan x="1260" dy="22">与作业参数</tspan></text>
+<rect x="1525" y="1090" width="210" height="60" fill="white"/><path d="M1525,1090 h210 M1525,1150 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="1630" y="1114" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1630" dy="0">S01</tspan><tspan x="1630" dy="21">本机任务与成果记录</tspan></text>
+<rect x="1515" y="150" width="210" height="60" fill="white"/><path d="M1515,150 h210 M1515,210 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="1620" y="174" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1620" dy="0">S03</tspan><tspan x="1620" dy="21">已同步航线</tspan></text>
+<circle cx="150" cy="160" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="150" y="143" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="150" dy="0">5.0</tspan><tspan x="150" dy="22">管理身份认证</tspan><tspan x="150" dy="22">与应用会话</tspan></text>
+<rect x="1515" y="360" width="210" height="60" fill="white"/><path d="M1515,360 h210 M1515,420 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="1620" y="384" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1620" dy="0">S05</tspan><tspan x="1620" dy="21">作业参数</tspan></text>
+<rect x="775" y="1140" width="210" height="60" fill="white"/><path d="M775,1140 h210 M775,1200 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="880" y="1164" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="880" dy="0">S07</tspan><tspan x="880" dy="21">分端操作／异常日志</tspan></text>
+<circle cx="1270" cy="620" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1270" y="603" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1270" dy="0">1.5</tspan><tspan x="1270" dy="22">接入场景地图</tspan><tspan x="1270" dy="22">与浏览</tspan></text>
+<rect x="1540" y="588" width="200" height="84" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1640" y="610" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1640" dy="0">E06</tspan><tspan x="1640" dy="21">场景地图资料来源</tspan><tspan x="1640" dy="21">〔边界待核对〕</tspan></text>
+<rect x="1515" y="830" width="210" height="60" fill="white"/><path d="M1515,830 h210 M1515,890 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="1620" y="854" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1620" dy="0">S06</tspan><tspan x="1620" dy="21">场景底图</tspan></text>
+<text x="925" y="1303" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="925" dy="0">圆：加工　矩形：外部实体　平行线：逻辑存储　*：含待确认项（详见定义表）</tspan></text>
+<text x="925" y="1330" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#193653"><tspan x="925" dy="0">交叉线不表示连接；箭头表示数据关系，不表示先后顺序。</tspan></text>
+</svg>
