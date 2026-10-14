@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="1180" viewBox="0 0 1550 1180"><title>2 层 · 2.0 管理空间成果 与三维交互</title><rect width="100%" height="100%" fill="white"/><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#54789E"/></marker></defs>
+<text x="775" y="32" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#193653"><tspan x="775" dy="0">2 层 · 2.0 管理空间成果 与三维交互 · v1.1</tspan></text>
+<text x="775" y="65" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="775" dy="0">本阶段建模基线｜与完整 1 层图平衡｜未定边界及业务组成见配套表</tspan></text>
+<g data-flow-id="F05@P2.1"><title>F05@P2.1 所属任务、巡检成果、处理状态：F05</title><path d="M245,316.271186440678 Q292.5,324 372.8826667411335,310.9207864285613" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F55@P2.3"><title>F55@P2.3 展示折算容重：F55</title><path d="M225.45454545454547,790 Q292.5,815 376.2853460745303,783.7580065484802" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F65@P2.1"><title>F65@P2.1 任务重处理请求：F65</title><path d="M372.8826667411335,289.0792135714387 Q292.5,276 245,283.728813559322" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F44@P2.2"><title>F44@P2.2 成果身份与访问范围：F44</title><path d="M822.999727244317,195.59363919300378 Q920,235 1017.000272755683,274.4063608069962" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F06@P2.4"><title>F06@P2.4 视角与联动选择：F06</title><path d="M1328.5368077031974,560 Q1215.3976429522288,625.953447328994 1128.3237603990995,712.1584471312812" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F07@P2.4"><title>F07@P2.4 三维成果与明细：F07</title><path d="M1138.7469965478642,725.7539725427133 Q1244.6023570477712,664.046552671006 1349.6976221497007,560" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F31@P2.2"><title>F31@P2.2 记录筛选与清理确认：F31</title><path d="M1349.6976221497007,500 Q1244.6023570477712,395.953447328994 1138.7469965478642,334.2460274572867" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F32@P2.2"><title>F32@P2.2 记录及清理结果：F32</title><path d="M1128.3237603990995,347.84155286871885 Q1215.3976429522288,434.046552671006 1328.5368077031974,500" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F17@P2.1"><title>F17@P2.1 成果与处理状态记录：F17</title><path d="M495.2170452513045,339.6872512743751 Q600,415 718.2608695652174,500" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F18@P2.3"><title>F18@P2.3 所选任务成果资料：F18</title><path d="M718.2608695652174,560 Q600,645 495.2170452513045,720.3127487256248" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F33@P2.2"><title>F33@P2.2 本机记录索引：F33</title><path d="M814.6553115596203,500 Q934.0072651556618,434.4883689122251 1029.9865821478988,346.0723131039797" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F34@P2.2"><title>F34@P2.2 清理及失效变更：F34</title><path d="M1020.3895127328731,332.71986870046544 Q905.9927348443382,395.5116310877749 792.5662514963553,500" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-07"><title>I2-07 渲染运行异常：</title><path d="M1080,692 Q1080,530 1080,368" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-01"><title>I2-01 成果访问范围：</title><path d="M1012.190446927585,294.91428351956887 Q760,276 507.80955307241504,294.91428351956887" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-03"><title>I2-03 可展示成果与关联明细：</title><path d="M507.80955307241504,765.0857164804311 Q760,784 1012.190446927585,765.0857164804311" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-04"><title>I2-04 堆体与明细定位选择：</title><path d="M1012.190446927585,754.9142835195689 Q760,736 507.80955307241504,754.9142835195689" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-05"><title>I2-05 处理处置及异常留痕：</title><path d="M507.80955307241504,305.08571648043113 Q760,324 1012.190446927585,305.08571648043113" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F68@P2.2"><title>F68@P2.2 App 成果日志及滚动变更：F68</title><path d="M1048.2980532766144,360.1580133809921 Q898.119653874339,645.1384355489978 771.3566076012005,980" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F69@P2.2"><title>F69@P2.2 App 成果日志与元信息：F69</title><path d="M775.8093385776943,980 Q941.880346125661,664.8615644510022 1055.9255906322526,363.59577669620927" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-02"><title>I2-02 记录有效性与访问范围：</title><path d="M1012.0369169321854,302.24038834074145 Q605.9200832877201,315.62794196552363 463.7859483297744,696.2957720237243" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="I2-06"><title>I2-06 成果准备异常：</title><path d="M469.3451181043579,698.6578118792515 Q633.9346135990437,354.6046797899739 1012.5038413551842,308.2624795427201" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F06@P2.3"><title>F06@P2.3 成果选择：F06</title><path d="M1280,554.468085106383 Q910,645 506.0515290117024,743.8384556673494" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F07@P2.1"><title>F07@P2.1 处理进度及失败：F07</title><path d="M505.16978904587853,319.4138763701557 Q904.2959255296528,438.31230435707147 1280,510.72589650508786" stroke="#54789E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<g data-flow-id="F64@P2.1"><title>F64@P2.1 重处理／放弃及任务：F64</title><path d="M1280,500.2103127010452 Q915.7040744703472,391.68769564292853 506.7710666341342,312.86952448771973" stroke="#637F9E" stroke-width="1.4" fill="none" marker-end="url(#arrow)"/></g>
+<rect x="188.5206666852834" y="390.7979932173098" width="224.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="300.7206666852834" y="407.7979932173098" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="300.7206666852834" dy="0">F05 所属任务、巡检成果、处理状态</tspan></text>
+<rect x="229.38497288226893" y="806.9395016371201" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="296.68497288226894" y="823.9395016371201" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="296.68497288226894" dy="0">F55 展示折算容重 *</tspan></text>
+<rect x="208.47812667578881" y="229.86762739131478" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="282.2781266757888" y="246.86762739131478" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="282.2781266757888" dy="0">F65 任务重处理请求 *</tspan></text>
+<rect x="847.5023277843256" y="186.79427006935225" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="934.3023277843256" y="203.79427006935225" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="934.3023277843256" dy="0">F44 成果身份与访问范围 *</tspan></text>
+<rect x="1124.9935648427174" y="587.8592937182244" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1198.7935648427174" y="604.8592937182244" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1198.7935648427174" dy="0">F06.2 视角与联动选择</tspan></text>
+<rect x="1193.7327318572482" y="670.6188112002742" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1267.532731857248" y="687.6188112002742" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1267.532731857248" dy="0">F07.2 三维成果与明细</tspan></text>
+<rect x="1180.7327318572482" y="363.3811887997258" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1267.532731857248" y="380.3811887997258" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1267.532731857248" dy="0">F31 记录筛选与清理确认 *</tspan></text>
+<rect x="1132.0935648427173" y="446.1407062817756" width="133.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1198.7935648427174" y="463.1407062817756" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1198.7935648427174" dy="0">F32 记录及清理结果</tspan></text>
+<rect x="534.7585636190294" y="388.9935207630822" width="159.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="614.4585636190294" y="405.9935207630822" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="614.4585636190294" dy="0">F17 成果与处理状态记录</tspan></text>
+<rect x="541.2585636190294" y="645.0064792369177" width="146.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="614.4585636190294" y="662.0064792369177" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="614.4585636190294" dy="0">F18 所选任务成果资料</tspan></text>
+<rect x="879.0531909196095" y="431.190554787619" width="120.4" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="939.2531909196096" y="448.190554787619" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="939.2531909196096" dy="0">F33 本机记录索引</tspan></text>
+<rect x="810.2571386496783" y="362.0791986079807" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="884.0571386496782" y="379.0791986079807" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="884.0571386496782" dy="0">F34 清理及失效变更 *</tspan></text>
+<rect x="993.7" y="517" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1061" y="534" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1061" dy="0">I2-07 渲染运行异常</tspan></text>
+<rect x="692.7" y="253.45714175978446" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="760" y="270.45714175978446" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="760" dy="0">I2-01 成果访问范围</tspan></text>
+<rect x="666.7" y="780.5428582402155" width="186.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="760" y="797.5428582402155" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="760" dy="0">I2-03 可展示成果与关联明细</tspan></text>
+<rect x="673.2" y="713.4571417597845" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="760" y="730.4571417597845" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="760" dy="0">I2-04 堆体与明细定位选择</tspan></text>
+<rect x="673.2" y="320.54285824021554" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="760" y="337.54285824021554" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="760" dy="0">I2-05 处理处置及异常留痕</tspan></text>
+<rect x="725.4805996282404" y="609.6823470224475" width="202" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="826.4805996282404" y="626.6823470224475" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="826.4805996282404" dy="0">F68 App 成果日志及滚动变更 *</tspan></text>
+<rect x="937.0216288192227" y="587.8351386068598" width="174.8" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1024.4216288192226" y="604.8351386068598" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1024.4216288192226" dy="0">F69 App 成果日志与元信息</tspan></text>
+<rect x="396.1926662347292" y="464.5569856133628" width="186.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="489.4926662347292" y="481.5569856133628" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="489.4926662347292" dy="0">I2-02 记录有效性与访问范围</tspan></text>
+<rect x="642.3077164942052" y="446.8889968615029" width="134.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="709.6077164942052" y="463.8889968615029" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="709.6077164942052" dy="0">I2-06 成果准备异常</tspan></text>
+<rect x="851.7286078752838" y="652.5322094761148" width="108.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="906.0286078752838" y="669.5322094761148" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="906.0286078752838" dy="0">F06.1 成果选择</tspan></text>
+<rect x="703.3731563655175" y="402.4039578534131" width="147.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="777.1731563655175" y="419.4039578534131" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="777.1731563655175" dy="0">F07.1 处理进度及失败</tspan></text>
+<rect x="937.2405351690477" y="396.4277011007882" width="173.6" height="26" rx="3" fill="white" fill-opacity="0.94"/>
+<text x="1024.0405351690476" y="413.4277011007882" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#193653"><tspan x="1024.0405351690476" dy="0">F64 重处理／放弃及任务 *</tspan></text>
+<rect x="45" y="270" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="145" y="290" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="145" dy="0">E02</tspan><tspan x="145" dy="21">机载无人机系统</tspan></text>
+<circle cx="440" cy="300" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="440" y="283" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="440" dy="0">2.1</tspan><tspan x="440" dy="22">接入与处置</tspan><tspan x="440" dy="22">成果处理</tspan></text>
+<rect x="1280" y="500" width="200" height="60" fill="#F8FAFC" stroke="#7491B2" stroke-width="1.2"/>
+<text x="1380" y="520" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="1380" dy="0">E01</tspan><tspan x="1380" dy="21">App 现场使用者</tspan></text>
+<circle cx="440" cy="760" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="440" y="743" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="440" dy="0">2.3</tspan><tspan x="440" dy="22">准备所选成果</tspan><tspan x="440" dy="22">与展示资料</tspan></text>
+<circle cx="1080" cy="760" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1080" y="743" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1080" dy="0">2.4</tspan><tspan x="1080" dy="22">提供三维展示</tspan><tspan x="1080" dy="22">与明细联动</tspan></text>
+<rect x="655" y="500" width="210" height="60" fill="white"/><path d="M655,500 h210 M655,560 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="760" y="524" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="760" dy="0">S01</tspan><tspan x="760" dy="21">本机任务与成果记录</tspan></text>
+<circle cx="1080" cy="300" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="1080" y="283" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="1080" dy="0">2.2</tspan><tspan x="1080" dy="22">管理本机记录</tspan><tspan x="1080" dy="22">与访问范围</tspan></text>
+<circle cx="760" cy="170" r="68" fill="#EFF6FF" stroke="#3B75B4" stroke-width="1.6"/>
+<text x="760" y="153" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="17" fill="#193653"><tspan x="760" dy="0">5.0</tspan><tspan x="760" dy="22">管理身份认证</tspan><tspan x="760" dy="22">与应用会话</tspan></text>
+<rect x="40" y="730" width="210" height="60" fill="white"/><path d="M40,730 h210 M40,790 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="145" y="754" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="145" dy="0">S05</tspan><tspan x="145" dy="21">作业参数</tspan></text>
+<rect x="655" y="980" width="210" height="60" fill="white"/><path d="M655,980 h210 M655,1040 h210" stroke="#7491B2" stroke-width="1.3"/>
+<text x="760" y="1004" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="760" dy="0">S07</tspan><tspan x="760" dy="21">分端操作／异常日志</tspan></text>
+<text x="775" y="1133" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="16" fill="#193653"><tspan x="775" dy="0">圆：加工　矩形：外部实体　平行线：逻辑存储　*：含待确认项（详见定义表）</tspan></text>
+<text x="775" y="1160" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#193653"><tspan x="775" dy="0">交叉线不表示连接；箭头表示数据关系，不表示先后顺序。</tspan></text>
+</svg>
